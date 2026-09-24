@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: read
+  pages: write
 
 concurrency:
   group: pages-${{ github.ref }}
@@ -50,4 +51,3 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
-
