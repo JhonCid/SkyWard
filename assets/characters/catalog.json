@@ -1,0 +1,512 @@
+[
+  {
+    "name": "A_TPose",
+    "duration": 2.5,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Crouch_Fwd_Loop",
+    "duration": 2.0,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Crouch_Idle_Loop",
+    "duration": 2.933,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Dance_Loop",
+    "duration": 1.0,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Death01",
+    "duration": 2.4,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Driving_Loop",
+    "duration": 1.667,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Fixing_Kneeling",
+    "duration": 5.2,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Hit_Chest",
+    "duration": 0.333,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Hit_Head",
+    "duration": 0.433,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Idle_Loop",
+    "duration": 2.5,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Idle_Talking_Loop",
+    "duration": 2.933,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Idle_Torch_Loop",
+    "duration": 1.267,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Interact",
+    "duration": 2.0,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Jog_Fwd_Loop",
+    "duration": 0.933,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Jump_Land",
+    "duration": 1.267,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Jump_Loop",
+    "duration": 2.5,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Jump_Start",
+    "duration": 1.333,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "PickUp_Table",
+    "duration": 0.833,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Pistol_Aim_Down",
+    "duration": 0.167,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Pistol_Aim_Neutral",
+    "duration": 0.167,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Pistol_Aim_Up",
+    "duration": 0.167,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Pistol_Idle_Loop",
+    "duration": 1.667,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Pistol_Reload",
+    "duration": 1.667,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Pistol_Shoot",
+    "duration": 0.633,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Punch_Cross",
+    "duration": 1.0,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Punch_Jab",
+    "duration": 0.867,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Push_Loop",
+    "duration": 2.667,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Roll",
+    "duration": 1.467,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Sitting_Enter",
+    "duration": 1.3,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Sitting_Exit",
+    "duration": 1.033,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Sitting_Idle_Loop",
+    "duration": 1.667,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Sitting_Talking_Loop",
+    "duration": 2.933,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Spell_Simple_Enter",
+    "duration": 0.533,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Spell_Simple_Exit",
+    "duration": 0.433,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Spell_Simple_Idle_Loop",
+    "duration": 2.1,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Spell_Simple_Shoot",
+    "duration": 0.5,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Sprint_Loop",
+    "duration": 0.667,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Swim_Fwd_Loop",
+    "duration": 1.333,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Swim_Idle_Loop",
+    "duration": 3.333,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Sword_Attack",
+    "duration": 1.533,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Sword_Idle",
+    "duration": 1.667,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Walk_Formal_Loop",
+    "duration": 1.333,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Walk_Loop",
+    "duration": 1.333,
+    "source": "UAL1_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Chest_Open",
+    "duration": 1.367,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "ClimbUp_1m",
+    "duration": 0.667,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Consume",
+    "duration": 1.333,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Farm_Harvest",
+    "duration": 2.5,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Farm_PlantSeed",
+    "duration": 2.767,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Farm_Watering",
+    "duration": 3.8,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Hit_Knockback",
+    "duration": 0.833,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Idle_FoldArms_Loop",
+    "duration": 2.5,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Idle_Lantern_Loop",
+    "duration": 2.5,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Idle_No_Loop",
+    "duration": 2.5,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Idle_Rail_Call",
+    "duration": 2.5,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Idle_Rail_Loop",
+    "duration": 2.5,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Idle_Shield_Break",
+    "duration": 1.067,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Idle_Shield_Loop",
+    "duration": 2.5,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Idle_TalkingPhone_Loop",
+    "duration": 2.933,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "LayToIdle",
+    "duration": 1.533,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Melee_Hook",
+    "duration": 0.467,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Melee_Hook_Rec",
+    "duration": 0.6,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "NinjaJump_Idle_Loop",
+    "duration": 2.0,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "NinjaJump_Land",
+    "duration": 1.267,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "NinjaJump_Start",
+    "duration": 0.967,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "OverhandThrow",
+    "duration": 1.333,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Shield_Dash",
+    "duration": 1.1,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Shield_OneShot",
+    "duration": 0.833,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Slide_Exit",
+    "duration": 0.5,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Slide_Loop",
+    "duration": 2.0,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Slide_Start",
+    "duration": 0.833,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Sword_Block",
+    "duration": 1.233,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Sword_Dash",
+    "duration": 1.567,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Sword_Heavy_Combo",
+    "duration": 4.333,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Sword_Regular_A",
+    "duration": 0.433,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Sword_Regular_A_Rec",
+    "duration": 0.967,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Sword_Regular_B",
+    "duration": 0.533,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Sword_Regular_B_Rec",
+    "duration": 1.033,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Sword_Regular_C",
+    "duration": 2.0,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Sword_Regular_Combo",
+    "duration": 3.0,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "TreeChopping_Loop",
+    "duration": 0.967,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Walk_Carry_Loop",
+    "duration": 2.0,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Yes",
+    "duration": 2.5,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Zombie_Idle_Loop",
+    "duration": 1.333,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Zombie_Scratch",
+    "duration": 1.8,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  },
+  {
+    "name": "Zombie_Walk_Fwd_Loop",
+    "duration": 1.333,
+    "source": "UAL2_Standard.glb",
+    "rootMotion": false
+  }
+]

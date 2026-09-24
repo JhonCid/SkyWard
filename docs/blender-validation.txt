@@ -1,0 +1,197 @@
+17:10:21 | INFO: Data are loaded, start creating Blender stuff
+17:10:21 | INFO: Blender create Mesh node Suit
+17:10:21 | INFO: Blender create Mesh node Helmet
+17:10:21 | INFO: Blender create Mesh node Visor
+17:10:21 | INFO: Blender create Mesh node Chest
+17:10:21 | INFO: Blender create Mesh node Chest
+17:10:21 | INFO: Blender create Mesh node ChestStripe
+17:10:21 | INFO: Blender create Mesh node Abdomen
+17:10:21 | INFO: Blender create Mesh node Belt
+17:10:21 | INFO: Blender create Mesh node Shoulder_l
+17:10:21 | INFO: Blender create Mesh node Forearm_l
+17:10:21 | INFO: Blender create Mesh node Thigh_l
+17:10:21 | INFO: Blender create Mesh node Knee_l
+17:10:21 | INFO: Blender create Mesh node Shin_l
+17:10:21 | INFO: Blender create Mesh node Boot_l
+17:10:21 | INFO: Blender create Mesh node WristLight_l
+17:10:21 | INFO: Blender create Mesh node Shoulder_r
+17:10:21 | INFO: Blender create Mesh node Forearm_r
+17:10:21 | INFO: Blender create Mesh node Thigh_r
+17:10:21 | INFO: Blender create Mesh node Knee_r
+17:10:21 | INFO: Blender create Mesh node Shin_r
+17:10:21 | INFO: Blender create Mesh node Boot_r
+17:10:21 | INFO: Blender create Mesh node WristLight_r
+17:10:21 | INFO: Blender create Mesh node Jetpack
+17:10:21 | INFO: Blender create Mesh node PackCenter
+17:10:21 | INFO: Blender create Mesh node Thruster
+17:10:21 | INFO: Blender create Mesh node JetLight
+17:10:21 | INFO: Blender create Mesh node Thruster
+17:10:21 | INFO: Blender create Mesh node JetLight
+17:10:22 | INFO: glTF import finished in 1.10s
+17:10:22 | INFO: Data are loaded, start creating Blender stuff
+17:10:22 | INFO: Blender create Mesh node Suit
+17:10:22 | INFO: Blender create Mesh node Head
+17:10:22 | INFO: Blender create Mesh node Nose
+17:10:22 | INFO: Blender create Mesh node Ear
+17:10:22 | INFO: Blender create Mesh node Ear
+17:10:22 | INFO: Blender create Mesh node Hair_0
+17:10:22 | INFO: Blender create Mesh node Chest
+17:10:22 | INFO: Blender create Mesh node Chest
+17:10:22 | INFO: Blender create Mesh node ChestStripe
+17:10:22 | INFO: Blender create Mesh node Abdomen
+17:10:22 | INFO: Blender create Mesh node Belt
+17:10:22 | INFO: Blender create Mesh node Shoulder_l
+17:10:22 | INFO: Blender create Mesh node Forearm_l
+17:10:22 | INFO: Blender create Mesh node Thigh_l
+17:10:22 | INFO: Blender create Mesh node Knee_l
+17:10:22 | INFO: Blender create Mesh node Shin_l
+17:10:22 | INFO: Blender create Mesh node Boot_l
+17:10:22 | INFO: Blender create Mesh node Shoulder_r
+17:10:22 | INFO: Blender create Mesh node Forearm_r
+17:10:22 | INFO: Blender create Mesh node Thigh_r
+17:10:22 | INFO: Blender create Mesh node Knee_r
+17:10:22 | INFO: Blender create Mesh node Shin_r
+17:10:22 | INFO: Blender create Mesh node Boot_r
+17:10:22 | INFO: glTF import finished in 0.17s
+17:10:22 | INFO: Data are loaded, start creating Blender stuff
+17:10:22 | INFO: Blender create Mesh node Suit
+17:10:22 | INFO: Blender create Mesh node Head
+17:10:22 | INFO: Blender create Mesh node Nose
+17:10:22 | INFO: Blender create Mesh node Ear
+17:10:22 | INFO: Blender create Mesh node Ear
+17:10:22 | INFO: Blender create Mesh node Hair_0
+17:10:22 | INFO: Blender create Mesh node Chest
+17:10:22 | INFO: Blender create Mesh node Chest
+17:10:22 | INFO: Blender create Mesh node ChestStripe
+17:10:22 | INFO: Blender create Mesh node Abdomen
+17:10:22 | INFO: Blender create Mesh node Belt
+17:10:23 | INFO: Blender create Mesh node Shoulder_l
+17:10:23 | INFO: Blender create Mesh node Forearm_l
+17:10:23 | INFO: Blender create Mesh node Thigh_l
+17:10:23 | INFO: Blender create Mesh node Knee_l
+17:10:23 | INFO: Blender create Mesh node Shin_l
+17:10:23 | INFO: Blender create Mesh node Boot_l
+17:10:23 | INFO: Blender create Mesh node Shoulder_r
+17:10:23 | INFO: Blender create Mesh node Forearm_r
+17:10:23 | INFO: Blender create Mesh node Thigh_r
+17:10:23 | INFO: Blender create Mesh node Knee_r
+17:10:23 | INFO: Blender create Mesh node Shin_r
+17:10:23 | INFO: Blender create Mesh node Boot_r
+17:10:23 | INFO: glTF import finished in 0.19s
+Info: Saved "SkyWard-Characters.blend"
+Saved editable character source: /workspace/scratch/d01ebbe7e8e4/skyward-v0.3.1/assets/characters/SkyWard-Characters.blend
+Blender 4.3.2 (hash 32f5fdce0a0a built 2024-12-17 01:31:14)
+
+Blender quit
+Blender 4.3.2 (hash 32f5fdce0a0a built 2024-12-17 01:31:14)
+Read blend: "/workspace/scratch/d01ebbe7e8e4/skyward-v0.3.1/assets/characters/SkyWard-Characters.blend"
+Fra:15 Mem:108.82M (Peak 108.92M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Boot_l
+Fra:15 Mem:108.82M (Peak 108.92M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Jetpack
+Fra:15 Mem:109.87M (Peak 109.87M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shin_l
+Fra:15 Mem:109.92M (Peak 109.92M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Plane
+Fra:15 Mem:109.92M (Peak 109.92M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder_r.002
+Fra:15 Mem:110.98M (Peak 110.98M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Boot_r
+Fra:15 Mem:110.97M (Peak 110.98M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thruster.001
+Fra:15 Mem:111.13M (Peak 111.14M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Abdomen
+Fra:15 Mem:111.25M (Peak 111.25M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Knee_l
+Fra:15 Mem:111.25M (Peak 111.25M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WristLight_l
+Fra:15 Mem:111.27M (Peak 111.27M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | ChestStripe
+Fra:15 Mem:111.23M (Peak 111.27M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ear.002
+Fra:15 Mem:111.30M (Peak 111.30M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | JetLight
+Fra:15 Mem:111.31M (Peak 111.31M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shin_r
+Fra:15 Mem:111.29M (Peak 111.31M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder_l
+Fra:15 Mem:111.28M (Peak 111.31M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder_r
+Fra:15 Mem:111.36M (Peak 111.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shin_l.002
+Fra:15 Mem:111.31M (Peak 111.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Chest.001
+Fra:15 Mem:111.30M (Peak 111.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forearm_l
+Fra:15 Mem:111.34M (Peak 111.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forearm_r
+Fra:15 Mem:111.33M (Peak 111.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Abdomen.002
+Fra:15 Mem:111.33M (Peak 111.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Suit
+Fra:15 Mem:111.33M (Peak 111.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Knee_r
+Fra:15 Mem:111.32M (Peak 111.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thruster
+Fra:15 Mem:111.24M (Peak 111.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder_l.002
+Fra:15 Mem:111.30M (Peak 111.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WristLight_r
+Fra:15 Mem:111.28M (Peak 111.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Abdomen.001
+Fra:15 Mem:111.28M (Peak 111.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ear.001
+Fra:15 Mem:111.34M (Peak 111.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shin_l.001
+Fra:15 Mem:111.31M (Peak 111.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head
+Fra:15 Mem:111.25M (Peak 111.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Boot_l.002
+Fra:15 Mem:111.25M (Peak 111.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose
+Fra:15 Mem:111.32M (Peak 111.36M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder_l.001
+Fra:15 Mem:111.44M (Peak 111.44M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ear
+Fra:15 Mem:111.44M (Peak 111.44M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Knee_l.001
+Fra:15 Mem:111.44M (Peak 111.44M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Chest.005
+Fra:15 Mem:111.41M (Peak 111.44M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shoulder_r.001
+Fra:15 Mem:111.41M (Peak 111.44M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hair_0
+Fra:15 Mem:111.45M (Peak 111.45M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Boot_r.001
+Fra:15 Mem:111.49M (Peak 111.49M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thigh_r.001
+Fra:15 Mem:111.50M (Peak 111.50M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thigh_l.002
+Fra:15 Mem:111.46M (Peak 111.50M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Belt.001
+Fra:15 Mem:111.41M (Peak 111.50M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Chest.002
+Fra:15 Mem:111.39M (Peak 111.50M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shin_r.001
+Fra:15 Mem:111.44M (Peak 111.50M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.001
+Fra:15 Mem:111.48M (Peak 111.50M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forearm_r.001
+Fra:15 Mem:111.51M (Peak 111.51M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forearm_l.001
+Fra:15 Mem:111.50M (Peak 111.51M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Knee_r.001
+Fra:15 Mem:111.54M (Peak 111.54M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | ChestStripe.001
+Fra:15 Mem:111.52M (Peak 111.54M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Suit.001
+Fra:15 Mem:111.50M (Peak 111.54M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | ChestStripe.002
+Fra:15 Mem:111.48M (Peak 111.54M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Chest.003
+Fra:15 Mem:111.62M (Peak 111.62M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thigh_l.001
+Fra:15 Mem:111.70M (Peak 111.70M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose.001
+Fra:15 Mem:113.32M (Peak 113.40M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thigh_r.002
+Fra:15 Mem:113.31M (Peak 113.40M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Boot_r.002
+Fra:15 Mem:113.35M (Peak 113.40M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Knee_r.002
+Fra:15 Mem:113.30M (Peak 113.40M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ear.003
+Fra:15 Mem:113.34M (Peak 113.40M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Chest.004
+Fra:15 Mem:113.39M (Peak 113.40M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forearm_l.002
+Fra:15 Mem:113.42M (Peak 113.42M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Belt.002
+Fra:15 Mem:113.42M (Peak 113.42M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forearm_r.002
+Fra:15 Mem:113.45M (Peak 113.45M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hair_0.001
+Fra:15 Mem:113.52M (Peak 113.52M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Suit.002
+Fra:15 Mem:113.46M (Peak 118.42M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:15 Mem:79.29M (Peak 118.42M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:15 Mem:79.29M (Peak 118.42M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:15 Mem:79.29M (Peak 118.42M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:15 Mem:79.29M (Peak 118.42M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:15 Mem:79.39M (Peak 118.42M) | Time:00:00.12 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:15 Mem:79.39M (Peak 118.42M) | Time:00:00.12 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:15 Mem:79.39M (Peak 118.42M) | Time:00:00.12 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:15 Mem:79.39M (Peak 118.42M) | Time:00:00.12 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:15 Mem:79.39M (Peak 118.42M) | Time:00:00.12 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:15 Mem:79.39M (Peak 118.42M) | Time:00:00.12 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:15 Mem:79.40M (Peak 118.42M) | Time:00:00.12 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:15 Mem:79.40M (Peak 118.42M) | Time:00:00.12 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Particle Systems
+Fra:15 Mem:79.40M (Peak 118.42M) | Time:00:00.12 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:15 Mem:79.40M (Peak 118.42M) | Time:00:00.12 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Meshes
+Fra:15 Mem:79.61M (Peak 118.42M) | Time:00:00.12 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:15 Mem:80.10M (Peak 118.42M) | Time:00:00.12 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:15 Mem:80.08M (Peak 118.42M) | Time:00:00.12 | Mem:0.50M, Peak:0.50M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:15 Mem:80.09M (Peak 118.42M) | Time:00:00.12 | Mem:0.50M, Peak:0.50M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:15 Mem:80.09M (Peak 118.42M) | Time:00:00.12 | Mem:0.92M, Peak:0.92M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:15 Mem:80.09M (Peak 118.42M) | Time:00:00.13 | Mem:1.38M, Peak:1.79M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:15 Mem:80.09M (Peak 118.42M) | Time:00:00.13 | Mem:1.38M, Peak:1.79M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:15 Mem:81.59M (Peak 118.42M) | Time:00:00.13 | Mem:1.38M, Peak:1.79M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:15 Mem:81.59M (Peak 118.42M) | Time:00:00.13 | Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Objects Flags
+Fra:15 Mem:81.59M (Peak 118.42M) | Time:00:00.13 | Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:15 Mem:81.60M (Peak 118.42M) | Time:00:00.13 | Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Images
+Fra:15 Mem:81.60M (Peak 118.42M) | Time:00:00.13 | Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Camera Volume
+Fra:15 Mem:81.60M (Peak 118.42M) | Time:00:00.13 | Mem:2.89M, Peak:2.89M | Scene, ViewLayer | Updating Lookup Tables
+Fra:15 Mem:81.60M (Peak 118.42M) | Time:00:00.13 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Lights
+Fra:15 Mem:81.60M (Peak 118.42M) | Time:00:00.13 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:15 Mem:81.60M (Peak 118.42M) | Time:00:00.13 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Integrator
+Fra:15 Mem:81.60M (Peak 118.42M) | Time:00:00.13 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Film
+Fra:15 Mem:81.60M (Peak 118.42M) | Time:00:00.13 | Mem:2.89M, Peak:2.97M | Scene, ViewLayer | Updating Lookup Tables
+Fra:15 Mem:81.60M (Peak 118.42M) | Time:00:00.13 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Baking
+Fra:15 Mem:81.60M (Peak 118.42M) | Time:00:00.13 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:15 Mem:81.60M (Peak 118.42M) | Time:00:00.13 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:15 Mem:81.60M (Peak 118.42M) | Time:00:00.13 | Mem:2.97M, Peak:2.97M | Scene, ViewLayer | Sample 0/24
+Fra:15 Mem:172.11M (Peak 172.11M) | Time:00:00.60 | Remaining:00:10.85 | Mem:93.43M, Peak:93.43M | Scene, ViewLayer | Sample 1/24
+Fra:15 Mem:210.20M (Peak 267.33M) | Time:00:09.21 | Mem:93.43M, Peak:93.43M | Scene, ViewLayer | Sample 24/24
+Fra:15 Mem:210.20M (Peak 267.33M) | Time:00:09.21 | Mem:93.43M, Peak:93.43M | Scene, ViewLayer | Finished
+Saved: '/workspace/scratch/d01ebbe7e8e4/skyward-v0.3.1/docs/character-review.png'
+Time: 00:09.38 (Saving: 00:00.16)
+
+Info: Saved "SkyWard-Characters.blend"
+
+Blender quit

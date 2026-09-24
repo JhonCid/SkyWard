@@ -1,0 +1,572 @@
+[
+  {
+    "file": "web/preferences.js",
+    "origin": "01_config_and_state.js",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "file": "input/camera_controls.js",
+    "origin": "01_config_and_state.js",
+    "startLine": 9,
+    "endLine": 97
+  },
+  {
+    "file": "ship/headlights.js",
+    "origin": "01_config_and_state.js",
+    "startLine": 98,
+    "endLine": 162
+  },
+  {
+    "file": "camera/clearance.js",
+    "origin": "02_camera_manager.js",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "file": "ship/landing_pose.js",
+    "origin": "03_landing_prep.js",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "file": "ship/landing_sequence.js",
+    "origin": "04_landing_gears.js",
+    "startLine": 1,
+    "endLine": 85
+  },
+  {
+    "file": "runtime/initial_state.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "file": "data/equipment_catalog.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 16,
+    "endLine": 28
+  },
+  {
+    "file": "runtime/combat_input_state.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 29,
+    "endLine": 51
+  },
+  {
+    "file": "runtime/player_world_state.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 52,
+    "endLine": 62
+  },
+  {
+    "file": "data/catalog_extensions.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 63,
+    "endLine": 66
+  },
+  {
+    "file": "input/gesture_state.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 67,
+    "endLine": 77
+  },
+  {
+    "file": "web/renderer.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 78,
+    "endLine": 84
+  },
+  {
+    "file": "physics/collision.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 85,
+    "endLine": 101
+  },
+  {
+    "file": "core/random.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 102,
+    "endLine": 103
+  },
+  {
+    "file": "runtime/galaxy_state.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 104,
+    "endLine": 105
+  },
+  {
+    "file": "core/galaxy_graph.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 106,
+    "endLine": 137
+  },
+  {
+    "file": "data/system_names.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 138,
+    "endLine": 147
+  },
+  {
+    "file": "core/system_names.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 148,
+    "endLine": 155
+  },
+  {
+    "file": "data/planets.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 156,
+    "endLine": 191
+  },
+  {
+    "file": "core/planet_definitions.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 192,
+    "endLine": 206
+  },
+  {
+    "file": "world/space.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 207,
+    "endLine": 336
+  },
+  {
+    "file": "ship/gate_travel.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 337,
+    "endLine": 393
+  },
+  {
+    "file": "world/sky.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 394,
+    "endLine": 437
+  },
+  {
+    "file": "web/warp_effect.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 438,
+    "endLine": 500
+  },
+  {
+    "file": "web/lens_flare.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 501,
+    "endLine": 652
+  },
+  {
+    "file": "ship/flight_effects.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 653,
+    "endLine": 675
+  },
+  {
+    "file": "runtime/navigation_compat.js",
+    "origin": "05_math_and_helpers.js",
+    "startLine": 676,
+    "endLine": 768
+  },
+  {
+    "file": "ship/autopilot.js",
+    "origin": "06_flight_physics.js",
+    "startLine": 1,
+    "endLine": 151
+  },
+  {
+    "file": "world/orbits.js",
+    "origin": "06_flight_physics.js",
+    "startLine": 152,
+    "endLine": 176
+  },
+  {
+    "file": "ship/gas_giant_dynamics.js",
+    "origin": "06_flight_physics.js",
+    "startLine": 177,
+    "endLine": 268
+  },
+  {
+    "file": "ship/flight.js",
+    "origin": "06_flight_physics.js",
+    "startLine": 269,
+    "endLine": 529
+  },
+  {
+    "file": "world/terrain_helpers.js",
+    "origin": "07_planet_world_data.js",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "file": "models/humans.js",
+    "origin": "08_biomechanics_and_avatar.js",
+    "startLine": 1,
+    "endLine": 546
+  },
+  {
+    "file": "generated/atlas_asset.js",
+    "origin": "16a_atlas_asset.js",
+    "startLine": 1,
+    "endLine": 2
+  },
+  {
+    "file": "ship/atlas.js",
+    "origin": "16b_atlas_integration.js",
+    "startLine": 1,
+    "endLine": 107
+  },
+  {
+    "file": "world/stations.js",
+    "origin": "09_cities_and_stations.js",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "file": "world/streaming.js",
+    "origin": "09_cities_and_stations.js",
+    "startLine": 25,
+    "endLine": 222
+  },
+  {
+    "file": "world/starfield.js",
+    "origin": "09_cities_and_stations.js",
+    "startLine": 223,
+    "endLine": 223
+  },
+  {
+    "file": "ship/fleet_and_boarding.js",
+    "origin": "09_cities_and_stations.js",
+    "startLine": 224,
+    "endLine": 316
+  },
+  {
+    "file": "runtime/entities_and_save.js",
+    "origin": "09_cities_and_stations.js",
+    "startLine": 317,
+    "endLine": 342
+  },
+  {
+    "file": "ui/menu_and_keyboard.js",
+    "origin": "10_ui_and_menus_base.js",
+    "startLine": 1,
+    "endLine": 54
+  },
+  {
+    "file": "runtime/update.js",
+    "origin": "11_main_loop_base.js",
+    "startLine": 1,
+    "endLine": 189
+  },
+  {
+    "file": "data/jobs.js",
+    "origin": "12_combat_jobs_and_audio.js",
+    "startLine": 1,
+    "endLine": 1
+  },
+  {
+    "file": "missions/jobs.js",
+    "origin": "12_combat_jobs_and_audio.js",
+    "startLine": 2,
+    "endLine": 49
+  },
+  {
+    "file": "missions/guide.js",
+    "origin": "12_combat_jobs_and_audio.js",
+    "startLine": 50,
+    "endLine": 51
+  },
+  {
+    "file": "web/audio.js",
+    "origin": "12_combat_jobs_and_audio.js",
+    "startLine": 52,
+    "endLine": 65
+  },
+  {
+    "file": "models/animals_and_fighters.js",
+    "origin": "12_combat_jobs_and_audio.js",
+    "startLine": 66,
+    "endLine": 70
+  },
+  {
+    "file": "combat/weapon_view.js",
+    "origin": "12_combat_jobs_and_audio.js",
+    "startLine": 71,
+    "endLine": 296
+  },
+  {
+    "file": "models/animation.js",
+    "origin": "12_combat_jobs_and_audio.js",
+    "startLine": 297,
+    "endLine": 468
+  },
+  {
+    "file": "economy/shops.js",
+    "origin": "12_combat_jobs_and_audio.js",
+    "startLine": 469,
+    "endLine": 491
+  },
+  {
+    "file": "combat/grenade_launch.js",
+    "origin": "13_combat_and_weapons.js",
+    "startLine": 1,
+    "endLine": 52
+  },
+  {
+    "file": "combat/scanner_effect.js",
+    "origin": "13_combat_and_weapons.js",
+    "startLine": 53,
+    "endLine": 84
+  },
+  {
+    "file": "ui/system_map.js",
+    "origin": "13_combat_and_weapons.js",
+    "startLine": 85,
+    "endLine": 388
+  },
+  {
+    "file": "combat/actors_and_damage.js",
+    "origin": "13_combat_and_weapons.js",
+    "startLine": 389,
+    "endLine": 471
+  },
+  {
+    "file": "web/weapon_audio.js",
+    "origin": "13_combat_and_weapons.js",
+    "startLine": 472,
+    "endLine": 572
+  },
+  {
+    "file": "combat/weapons.js",
+    "origin": "13_combat_and_weapons.js",
+    "startLine": 573,
+    "endLine": 767
+  },
+  {
+    "file": "combat/projectiles.js",
+    "origin": "13_combat_and_weapons.js",
+    "startLine": 768,
+    "endLine": 949
+  },
+  {
+    "file": "combat/enemies_and_missions.js",
+    "origin": "13_combat_and_weapons.js",
+    "startLine": 950,
+    "endLine": 961
+  },
+  {
+    "file": "ui/combat_panels.js",
+    "origin": "13_combat_and_weapons.js",
+    "startLine": 962,
+    "endLine": 983
+  },
+  {
+    "file": "runtime/combat_boot.js",
+    "origin": "13_combat_and_weapons.js",
+    "startLine": 984,
+    "endLine": 994
+  },
+  {
+    "file": "data/item_descriptions.js",
+    "origin": "13_combat_and_weapons.js",
+    "startLine": 995,
+    "endLine": 1067
+  },
+  {
+    "file": "ui/item_lore.js",
+    "origin": "13_combat_and_weapons.js",
+    "startLine": 1068,
+    "endLine": 1109
+  },
+  {
+    "file": "ui/map_ship_tooltip.js",
+    "origin": "13_combat_and_weapons.js",
+    "startLine": 1110,
+    "endLine": 1133
+  },
+  {
+    "file": "ui/planet_map.js",
+    "origin": "13_combat_and_weapons.js",
+    "startLine": 1134,
+    "endLine": 1453
+  },
+  {
+    "file": "world/planet_lod.js",
+    "origin": "14_planet_lod_and_environment.js",
+    "startLine": 1,
+    "endLine": 55
+  },
+  {
+    "file": "physics/spatial_index.js",
+    "origin": "14_planet_lod_and_environment.js",
+    "startLine": 56,
+    "endLine": 59
+  },
+  {
+    "file": "world/settlements.js",
+    "origin": "14_planet_lod_and_environment.js",
+    "startLine": 60,
+    "endLine": 179
+  },
+  {
+    "file": "physics/floor_probe.js",
+    "origin": "14_planet_lod_and_environment.js",
+    "startLine": 180,
+    "endLine": 213
+  },
+  {
+    "file": "player/movement.js",
+    "origin": "15_foot_controller.js",
+    "startLine": 1,
+    "endLine": 78
+  },
+  {
+    "file": "player/avatar.js",
+    "origin": "15_foot_controller.js",
+    "startLine": 79,
+    "endLine": 90
+  },
+  {
+    "file": "camera/player_camera.js",
+    "origin": "15_foot_controller.js",
+    "startLine": 91,
+    "endLine": 368
+  },
+  {
+    "file": "player/equipment.js",
+    "origin": "15_foot_controller.js",
+    "startLine": 369,
+    "endLine": 374
+  },
+  {
+    "file": "models/landing_gear.js",
+    "origin": "15_foot_controller.js",
+    "startLine": 375,
+    "endLine": 479
+  },
+  {
+    "file": "models/ship_interiors.js",
+    "origin": "16_ship_models_and_interiors.js",
+    "startLine": 1,
+    "endLine": 40
+  },
+  {
+    "file": "web/cockpit_textures.js",
+    "origin": "16_ship_models_and_interiors.js",
+    "startLine": 41,
+    "endLine": 181
+  },
+  {
+    "file": "ship/cargo_and_lights.js",
+    "origin": "16_ship_models_and_interiors.js",
+    "startLine": 182,
+    "endLine": 225
+  },
+  {
+    "file": "ui/cockpit.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 1,
+    "endLine": 167
+  },
+  {
+    "file": "ship/interactions.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 168,
+    "endLine": 331
+  },
+  {
+    "file": "ship/build_and_furniture.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 332,
+    "endLine": 343
+  },
+  {
+    "file": "models/rover.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 344,
+    "endLine": 549
+  },
+  {
+    "file": "world/terrain_and_citizens.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 550,
+    "endLine": 569
+  },
+  {
+    "file": "ui/world_panels.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 570,
+    "endLine": 604
+  },
+  {
+    "file": "runtime/player_boot.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 605,
+    "endLine": 610
+  },
+  {
+    "file": "input/gestures.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 611,
+    "endLine": 934
+  },
+  {
+    "file": "input/look.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 935,
+    "endLine": 1099
+  },
+  {
+    "file": "input/bindings.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 1100,
+    "endLine": 1192
+  },
+  {
+    "file": "ship/manual_flight.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 1193,
+    "endLine": 1327
+  },
+  {
+    "file": "ui/equipment_actions.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 1328,
+    "endLine": 1355
+  },
+  {
+    "file": "world/water.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 1356,
+    "endLine": 1390
+  },
+  {
+    "file": "world/environment.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 1391,
+    "endLine": 1539
+  },
+  {
+    "file": "web/batching_and_collision_cache.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 1540,
+    "endLine": 1548
+  },
+  {
+    "file": "runtime/system_loading.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 1549,
+    "endLine": 1627
+  },
+  {
+    "file": "runtime/startup.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 1628,
+    "endLine": 1724
+  },
+  {
+    "file": "web/public_api.js",
+    "origin": "17_cockpit_3d_console_and_input.js",
+    "startLine": 1725,
+    "endLine": 1761
+  }
+]

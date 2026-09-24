@@ -1,0 +1,14 @@
+{
+  "base": "SkyWard-v0.3.1-cabecas.zip",
+  "baseSHA256": "2d73e3cd74f0c570bc00b4b323b67838fe5a3f34362913498d44f889e0da06c7",
+  "changedRuntimeSources": [
+    "src/generated/characters.js",
+    "src/player/character_game.js",
+    "src/player/character_rig.js",
+    "src/runtime/player_world_state.js"
+  ],
+  "unchangedNPCVariants": 12,
+  "identicalNPCGLBs": true,
+  "identicalRigAndClips": true,
+  "sourceFilesFromN7": false
+}

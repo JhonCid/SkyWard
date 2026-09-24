@@ -1,0 +1,9 @@
+{
+  "sourceVersion": "0.1.41",
+  "sourceHTMLBytes": 1884895,
+  "normalizedHTMLSha256": "2b1e8c8f0b2c8252cbd2f4f2e0890ad766db9df2962b46d2bf929948103e3831",
+  "normalizedGameCodeSha256": "03a811fdbb04f05ccb7db764dea12777383f57c3d11bea75c0aec97d5488f987",
+  "atlasGLBSha256": "8a3a8c125a2fc9c49c3dac5ffbe31ea23a9fbfb36b7a0f7f5041affc7183fe37",
+  "threeSha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+  "relocatedFiles": 95
+}

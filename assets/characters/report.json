@@ -1,0 +1,21 @@
+{
+  "triangles": {
+    "player_lod0": 9849,
+    "male_lod0": 4285,
+    "male_lod1": 1395,
+    "male_lod2": 625,
+    "male_helmet_lod0": 4121,
+    "male_helmet_lod1": 1295,
+    "male_helmet_lod2": 571,
+    "female_lod0": 4576,
+    "female_lod1": 1209,
+    "female_lod2": 575,
+    "female_helmet_lod0": 4430,
+    "female_helmet_lod1": 1145,
+    "female_helmet_lod2": 535
+  },
+  "bones": 65,
+  "uniqueClips": 85,
+  "motionClips": 84,
+  "scale": 0.9734991887506761
+}

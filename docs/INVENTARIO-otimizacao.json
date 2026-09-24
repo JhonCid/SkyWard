@@ -1,0 +1,1269 @@
+[
+  {
+    "path": "SkyWard/ARCHITECTURE.md",
+    "bytes": 3977,
+    "zip_bytes": 1952,
+    "sha256": "842ab0327c7091e2982099da78cd8e06e71310e3bcebe0ef726d317d9856c51c",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/CHANGELOG.md",
+    "bytes": 2728,
+    "zip_bytes": 1425,
+    "sha256": "c885a3f2e17b3a6bc46ff3202e13771cde261d74f84359f889fe5f05c819486c",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/CONTINUAR-AQUI.md",
+    "bytes": 2017,
+    "zip_bytes": 1154,
+    "sha256": "a8f12f92b9d217dc957f512aaa54664718cce41ce95cdbb48fc691697a8699ea",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/GEMINI.md",
+    "bytes": 2432,
+    "zip_bytes": 1325,
+    "sha256": "b8a2a8e67d6becc3fe148601aaf9d035a107576124f18be7c6e81ad29916ccbd",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/LEIA-ME.md",
+    "bytes": 5554,
+    "zip_bytes": 2747,
+    "sha256": "40d81a6ea131ef34310d0b013e91e1735efa8337342d4b14256e88646e9323a8",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/Personagens-v0.3.2.html",
+    "bytes": 9015202,
+    "zip_bytes": 2163140,
+    "sha256": "a72ea7959f5321c65d0493f932546375a2a0a72802ac0f34cea802980ef220fd",
+    "destino": "preview gerado"
+  },
+  {
+    "path": "SkyWard/SkyWard-v0.3.2.html",
+    "bytes": 10232543,
+    "zip_bytes": 2400802,
+    "sha256": "e23a729a5f4b5611de9dec082e16b4495a725d7a41a5677d02f72531795a8d4b",
+    "destino": "HTML duplicado"
+  },
+  {
+    "path": "SkyWard/SkyWard.html",
+    "bytes": 10232543,
+    "zip_bytes": 2400802,
+    "sha256": "e23a729a5f4b5611de9dec082e16b4495a725d7a41a5677d02f72531795a8d4b",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/archive/pre-v0.2.0-reference.zip",
+    "bytes": 484071,
+    "zip_bytes": 481494,
+    "sha256": "17d6d03070ea6346546da0d4c7b952aa22e057d13cd6b476497436827d668d5e",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/assets/Atlas_v3.glb",
+    "bytes": 425408,
+    "zip_bytes": 107773,
+    "sha256": "8a3a8c125a2fc9c49c3dac5ffbe31ea23a9fbfb36b7a0f7f5041affc7183fe37",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/assets/characters/Explorer-Male.glb",
+    "bytes": 10080128,
+    "zip_bytes": 1815685,
+    "sha256": "fc8c18d15140081c0af613cba481c2435bc2a044c2a28920bd26d1348cfe6a32",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/assets/characters/NPC-Female.glb",
+    "bytes": 697252,
+    "zip_bytes": 142276,
+    "sha256": "a7c60c8a47331423182b71c7ebf34ec9c1e6914c036d1a315ada71a934282eae",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/assets/characters/NPC-Male.glb",
+    "bytes": 655312,
+    "zip_bytes": 128449,
+    "sha256": "30d12a1ebfe55e9f704b1013e5cdf15019fda91236b6d11bf0e2a434a3e9fd85",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/assets/characters/SkyWard-Characters-anterior.blend",
+    "bytes": 38324320,
+    "zip_bytes": 6661364,
+    "sha256": "f0a98607233752eb786e1630a9e5957b579cc894fb36c35935a0295089c8879f",
+    "destino": "Blender histórico"
+  },
+  {
+    "path": "SkyWard/assets/characters/base-audit.json",
+    "bytes": 426,
+    "zip_bytes": 263,
+    "sha256": "4026e06ced72a04eab2fca34465f7f77ffe73579e5092e3bf05ea27a99435616",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/assets/characters/catalog.json",
+    "bytes": 10163,
+    "zip_bytes": 920,
+    "sha256": "9ca65ee20261f38fbfd0c8124b624a353459cf58950c8f343d351bf4c3a0b621",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/assets/characters/report.json",
+    "bytes": 462,
+    "zip_bytes": 183,
+    "sha256": "4f59f174f0cb33484c3fbe631822fe9e3809c0ad9b8fd69b2a5c1cd3ab5a0533",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/assets/characters/skin-repair.json",
+    "bytes": 343,
+    "zip_bytes": 228,
+    "sha256": "a16ef2491bffd640b10c30e5a9dad2e248218599812d31c395f8d9e9a5707506",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/assets/characters/source/LICENSE-Quaternius.txt",
+    "bytes": 332,
+    "zip_bytes": 173,
+    "sha256": "6d01f55c6e4c49a2c9963e147e561945ae2c83958c8ca667d90a6bffdbfac061",
+    "destino": "fontes"
+  },
+  {
+    "path": "SkyWard/assets/characters/source/Mannequin_F.glb",
+    "bytes": 1442824,
+    "zip_bytes": 300313,
+    "sha256": "2ee6cc3fe888d9b144afa8cc4b2ab7bfc5d13a0d5b7548df777f61f64ad65fa6",
+    "destino": "fontes"
+  },
+  {
+    "path": "SkyWard/assets/characters/source/Tripo-Explorer-original.glb",
+    "bytes": 2732932,
+    "zip_bytes": 1855115,
+    "sha256": "91fd73b3d169a183ec338e36556e5728f7e788aee6b9ce7b009ce04f6a899973",
+    "destino": "fontes"
+  },
+  {
+    "path": "SkyWard/assets/characters/source/Tripo-Lowpoly-original.glb",
+    "bytes": 365836,
+    "zip_bytes": 117741,
+    "sha256": "bbc784b7ecd143f2fc203253e36d8cbda114667cfd50ed71278fb5917aa81a2b",
+    "destino": "fontes"
+  },
+  {
+    "path": "SkyWard/assets/characters/source/UAL1_Standard.glb",
+    "bytes": 7618436,
+    "zip_bytes": 2732090,
+    "sha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+    "destino": "fontes"
+  },
+  {
+    "path": "SkyWard/assets/characters/source/UAL1_Standard_RM.glb",
+    "bytes": 7620504,
+    "zip_bytes": 2753576,
+    "sha256": "be684571ed655a1b892c2c07e6e2aeca053b606c442d34004adaf1d944090d01",
+    "destino": "biblioteca RM não usada"
+  },
+  {
+    "path": "SkyWard/assets/characters/source/UAL2_Standard.glb",
+    "bytes": 8091444,
+    "zip_bytes": 3070607,
+    "sha256": "8cee20ab1bc55130092447e810e26df22dd2803eccc54f52137a7d54d7ab88a8",
+    "destino": "fontes"
+  },
+  {
+    "path": "SkyWard/assets/characters/source/UAL2_Standard_RM.glb",
+    "bytes": 8095936,
+    "zip_bytes": 3107178,
+    "sha256": "814eee878f82934992d3ea746c539df25e981487109c591f5efbb8dd03286f99",
+    "destino": "biblioteca RM não usada"
+  },
+  {
+    "path": "SkyWard/assets/characters/tripo-conversion.json",
+    "bytes": 8082,
+    "zip_bytes": 1167,
+    "sha256": "732fae0a9f2d687cb0f4c971a6b083c2e10a19a2dcba43db3e9416a7027b53fa",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/build.js",
+    "bytes": 1514,
+    "zip_bytes": 764,
+    "sha256": "388b24445931e44fcc439541c1badce3475a3b88dbdc5a801e699aca1886ac81",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/build.py",
+    "bytes": 1379,
+    "zip_bytes": 663,
+    "sha256": "10acd37129feb518f309e7e03f024f0c4e6c8d4cbc06b8588d95486c8b84b087",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/docs/ATLAS.md",
+    "bytes": 1444,
+    "zip_bytes": 796,
+    "sha256": "54d91fce72c443a8452246f570230cbd6ea436f1fc2a68ee0d359ae6cb03c016",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/docs/GODOT.md",
+    "bytes": 1381,
+    "zip_bytes": 776,
+    "sha256": "7a88ec4be246e30730759464ff88b9d3f494939d869d810b6200e3a5456a5be8",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/docs/LEIA-ME-v0.2.0.md",
+    "bytes": 1961,
+    "zip_bytes": 1090,
+    "sha256": "ba5686df743a99cc238e355ba000301245c284fe76b1f1bf52b10619e12e1889",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/docs/MAPA.md",
+    "bytes": 2884,
+    "zip_bytes": 1311,
+    "sha256": "f4cf92f15a0090d59946d85d451557bdabd1ad4b149675f465212d10fcb2446e",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/docs/PERSONAGENS.md",
+    "bytes": 7276,
+    "zip_bytes": 3500,
+    "sha256": "4b66b750ecbc3cc1310144d645acfdc405c144553ebc6a91c90f784b7d8d3cfe",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/docs/TRIPO-v0.3.2.md",
+    "bytes": 3198,
+    "zip_bytes": 1678,
+    "sha256": "0a5f182ba0be6ad766be45fb5790ed1ac40484be592104ed53228684631b1701",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/docs/VALIDACAO-v0.2.0.md",
+    "bytes": 2241,
+    "zip_bytes": 1185,
+    "sha256": "b8e2d9f5620bfdc14b68bce9f36b55e9a0abf893801cca87de544d94fd823947",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/docs/VALIDACAO.md",
+    "bytes": 5990,
+    "zip_bytes": 2855,
+    "sha256": "405e18acd6807e946bd75b997dc5bed8e415b7f3ebe6c0459e7346a2b176b6a4",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/docs/baseline-tests.txt",
+    "bytes": 2750,
+    "zip_bytes": 1163,
+    "sha256": "7e9cc64693f6ea4bec713f8ce2e01c59f24fa3a6ca74a70cc7f52ef5876202ae",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/docs/blender-validation.txt",
+    "bytes": 17701,
+    "zip_bytes": 1883,
+    "sha256": "6304e603d0fe0a675429bf7222267b17dcbf5354377e8e87743835bb1c14da6c",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/docs/character-poses/.male-jump.json.vItQ2K",
+    "bytes": 9699328,
+    "zip_bytes": 1465613,
+    "sha256": "3be8a7b7bc40021ab74206b5c61b6a04e62819e59ba1985d6b84030a8bd28f7d",
+    "destino": "temporário"
+  },
+  {
+    "path": "SkyWard/docs/character-poses/male-back.png",
+    "bytes": 70774,
+    "zip_bytes": 69270,
+    "sha256": "7ab85570aaf9cbd775458535f1e40591d6f43f28a4d0ababef56f3562b050d36",
+    "destino": "preview gerado"
+  },
+  {
+    "path": "SkyWard/docs/character-poses/male-idle.png",
+    "bytes": 74236,
+    "zip_bytes": 72794,
+    "sha256": "d6aec15789fd3af729fda60d869d68401cd4ad7f44579055f35f2621d24e25a8",
+    "destino": "preview gerado"
+  },
+  {
+    "path": "SkyWard/docs/character-review-fiel.png",
+    "bytes": 146898,
+    "zip_bytes": 144267,
+    "sha256": "a1405dd6e513ea4628673b1252f51d3b95a4462550b521c3b4a00dc2897f4cf8",
+    "destino": "preview gerado"
+  },
+  {
+    "path": "SkyWard/docs/character-review.png",
+    "bytes": 52887,
+    "zip_bytes": 51687,
+    "sha256": "d928dcd20935b3bba65007058f49585b51304a641eb2fb15823d67027e54a151",
+    "destino": "preview gerado"
+  },
+  {
+    "path": "SkyWard/docs/relocation.json",
+    "bytes": 12288,
+    "zip_bytes": 1878,
+    "sha256": "5baa5dadef67f06d70e331d6c978abbb8196442c686d848b8fd02a206b2e10fd",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/docs/symbols.json",
+    "bytes": 74803,
+    "zip_bytes": 7709,
+    "sha256": "6d8a393432cc6bc168021117c2e587489c1afb7c7a6c94c63e2b203416989808",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/import_atlas.py",
+    "bytes": 1993,
+    "zip_bytes": 1109,
+    "sha256": "39dc6bdf73dd5db21398003b9a0e915abbe375198b42035293bb9626f3341c9b",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/camera/clearance.js",
+    "bytes": 1526,
+    "zip_bytes": 719,
+    "sha256": "19eceac5dd3d6287047f33c43b6c0dc505762875e294870b50e3f071b01ca80f",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/camera/player_camera.js",
+    "bytes": 15211,
+    "zip_bytes": 4164,
+    "sha256": "8daf6928f9c313ef56e9fa68224ba91f35a5acd0d54c09d65873715179cb325d",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/combat/actors_and_damage.js",
+    "bytes": 8450,
+    "zip_bytes": 3589,
+    "sha256": "3903f0f06a09adfed0fd0a3f3f500da092f5219e4a38157a0e16b0c4bf4162fd",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/combat/enemies_and_missions.js",
+    "bytes": 5908,
+    "zip_bytes": 2464,
+    "sha256": "2da3368c98425d7e2df4ba5360d4be7124ff8eb0f847425efef492649cef7787",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/combat/grenade_launch.js",
+    "bytes": 2150,
+    "zip_bytes": 874,
+    "sha256": "bc2c5b593ed8b406af39d71c928c17b720698f2348ed7a2801c2f50b4506ecfb",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/combat/projectiles.js",
+    "bytes": 7345,
+    "zip_bytes": 2621,
+    "sha256": "0f57dbc7f782e91aa34e7be1f837349c739587e0e0c681602cc78af476eb3321",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/combat/scanner_effect.js",
+    "bytes": 878,
+    "zip_bytes": 469,
+    "sha256": "b29376684045062e1a8f62ecaf4f62ba250eed6e3ab43e0725825082fb481dc2",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/combat/weapon_view.js",
+    "bytes": 12000,
+    "zip_bytes": 3268,
+    "sha256": "378c21a49431a7776ff4969937b755b1c2c54b116be25396b6f894c42a295ec7",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/combat/weapons.js",
+    "bytes": 9210,
+    "zip_bytes": 3126,
+    "sha256": "9361d3f74fac887053b4437c14dd93c2452909b3bcd514d5c2ed6fbe83598731",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/core/galaxy_graph.js",
+    "bytes": 965,
+    "zip_bytes": 423,
+    "sha256": "4d822fb6b32cbb49b07a325949187b87c1eff5b4b1ed0cf3db84d3185ec92d94",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/core/planet_definitions.js",
+    "bytes": 599,
+    "zip_bytes": 297,
+    "sha256": "4e6fd84ccaca6d43b707227351d1793dd7850d2b9dd97b307f61b6a74d00ffc2",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/core/random.js",
+    "bytes": 252,
+    "zip_bytes": 212,
+    "sha256": "91ddcb42162942b60ce05b346f774f500d2fda9db21e77b524a3abc14ba4f10a",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/core/system_names.js",
+    "bytes": 275,
+    "zip_bytes": 163,
+    "sha256": "97fbf5f9d473d1164905a60628086a9732fe7378b1c5e1ba94a7fd37624599f1",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/data/catalog_extensions.js",
+    "bytes": 742,
+    "zip_bytes": 425,
+    "sha256": "ae3bac927b1e0d768bf9d87fcd70986726ab89c4b4a5f7569519cfcc5855aa16",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/data/equipment_catalog.js",
+    "bytes": 2663,
+    "zip_bytes": 1204,
+    "sha256": "bdcbf0a2b40640a62012039c46319ce93d7eb8d4f341788e7b7b77ac68afb742",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/data/item_descriptions.js",
+    "bytes": 4769,
+    "zip_bytes": 2250,
+    "sha256": "c63db2b0f05210acc136686d786247a3fd7f05bb7e85a2f29b6ab71115f48964",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/data/jobs.js",
+    "bytes": 411,
+    "zip_bytes": 280,
+    "sha256": "24a5a35e28c00d259ffda76e16c7e846d805047fc68cec4dd6b78436f0d9becd",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/data/planets.js",
+    "bytes": 4121,
+    "zip_bytes": 1636,
+    "sha256": "4f1efeae5d2846591205ff3c69dc6b47415e1bf079653d87f6aa49b68ea67ee5",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/data/system_names.js",
+    "bytes": 578,
+    "zip_bytes": 302,
+    "sha256": "3261117a2692d0db7014ae7c93d9bcb79ffc9012878b07d5a51b677dd4072131",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/economy/shops.js",
+    "bytes": 4324,
+    "zip_bytes": 2017,
+    "sha256": "c6ff91754839c72042ed19ac126f703fe10ee591a65ec42867e6660d9c2f46b1",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/generated/atlas_asset.js",
+    "bytes": 705237,
+    "zip_bytes": 79429,
+    "sha256": "f562eb61b923c24f2f9d0da81982ef02beda422e0bc052b1d4f5548e4604d1c0",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/generated/characters.js",
+    "bytes": 8322123,
+    "zip_bytes": 1985990,
+    "sha256": "13cb7e8db55689eec8cf99a789deccf787237b09ad6494c9cd3866e3dcb4dfb6",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/input/bindings.js",
+    "bytes": 5702,
+    "zip_bytes": 2022,
+    "sha256": "b0af13c72301d3ef7f5c7fb8a451213cf98bdc26d5397c07ba35adb5b90bc3a6",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/input/camera_controls.js",
+    "bytes": 5981,
+    "zip_bytes": 2323,
+    "sha256": "92cd45d9454db70a41d4d46b80257cd7b75e92570556598ce34e0d2c9c60de49",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/input/gesture_state.js",
+    "bytes": 951,
+    "zip_bytes": 576,
+    "sha256": "8bf4953a08a8c4a6202c6bba449091a655e969e74f9890841a582512be1f867d",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/input/gestures.js",
+    "bytes": 12951,
+    "zip_bytes": 3398,
+    "sha256": "3a2d1bbdb49559fb3cc79763c56867051d8b0ccd6970271b911625fdb66c1240",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/input/look.js",
+    "bytes": 6606,
+    "zip_bytes": 2009,
+    "sha256": "841f792460b9e09b1207aa2bbdf175a3014bc585f18d7d55511d87f6f5a0c293",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/manifest.json",
+    "bytes": 2596,
+    "zip_bytes": 832,
+    "sha256": "c10b833a82d58dd4194656f6a9af16860fcca4d13036172ff8cb47b6c81cfb2f",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/missions/guide.js",
+    "bytes": 1329,
+    "zip_bytes": 699,
+    "sha256": "a738b9390d12d44f67d5fd9690fea1db37bd044c4f584debfe9b8a1c5fbc0e8c",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/missions/jobs.js",
+    "bytes": 8328,
+    "zip_bytes": 3080,
+    "sha256": "7fbf1abdb71e31492757123e2a9e30a572239d3bf7e4fe9f5945d0a0c743e846",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/models/animals_and_fighters.js",
+    "bytes": 2800,
+    "zip_bytes": 1305,
+    "sha256": "18a1db4ac6029257c327e7382820b4497529c7eb5814426fb4fec434416a44c1",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/models/animation.js",
+    "bytes": 8067,
+    "zip_bytes": 2138,
+    "sha256": "4d76b1b659c4488b88961e02ef649930bb2ad4f9983c7c9a6d864116b5f4f309",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/models/humans.js",
+    "bytes": 35092,
+    "zip_bytes": 7179,
+    "sha256": "cf8065ae6f3b09b95d47b3e8528329b084e76f686b7b8b4deaf7381c7ee64c18",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/models/landing_gear.js",
+    "bytes": 4955,
+    "zip_bytes": 1855,
+    "sha256": "edf9f9702036b9017e4da075c0a22ac2bbaffcd1fff082fca0a620d2655c5a72",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/models/rover.js",
+    "bytes": 9467,
+    "zip_bytes": 3243,
+    "sha256": "730a4ea53d96cb2310e029abd08a85974cbdba6a4fbfdd425fd9a85cc12929cc",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/models/ship_interiors.js",
+    "bytes": 8453,
+    "zip_bytes": 3613,
+    "sha256": "bc10550a9ddc032b74934404a837825f96671da2963332c08dec867af3e7e291",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/physics/collision.js",
+    "bytes": 5060,
+    "zip_bytes": 1874,
+    "sha256": "b6892620be3c5c1f6f5b308a667d15dfcebe1b04403ddff10ac999f3fc190c45",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/physics/floor_probe.js",
+    "bytes": 1657,
+    "zip_bytes": 799,
+    "sha256": "3fa4e2d75ed0e35d52001e42a304cacf35d4d997e64553c6edf50c04c71ae960",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/physics/spatial_index.js",
+    "bytes": 1231,
+    "zip_bytes": 544,
+    "sha256": "8830517f8866d98d7268a6127e789402959f13dea5d76e58c225129fc15ab3f6",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/player/avatar.js",
+    "bytes": 4546,
+    "zip_bytes": 1858,
+    "sha256": "f4351980128dce67e65e23e10678c0e735058d425ecbef62910368d955f7e2e4",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/player/character_game.js",
+    "bytes": 6748,
+    "zip_bytes": 2793,
+    "sha256": "d65d44abb9061a02b1086fb039864d58eff7f21d49796bdee001cd4d629949b9",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/player/character_rig.js",
+    "bytes": 16396,
+    "zip_bytes": 5624,
+    "sha256": "8539a33c64f69c1d4566f778b47e7fc22c6e06f5ec1eb51c76a57f7b7622938c",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/player/equipment.js",
+    "bytes": 2422,
+    "zip_bytes": 1188,
+    "sha256": "242050a1f752ca8e8ca8ab86a131fc8f2fc506f4a3d6efe34cdcf3625eaef5bd",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/player/movement.js",
+    "bytes": 5895,
+    "zip_bytes": 2248,
+    "sha256": "da828f43c08ffe9254233e1e890da2c966fc39e744bbaeae69c563c3723a58a6",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/runtime/combat_boot.js",
+    "bytes": 3829,
+    "zip_bytes": 1617,
+    "sha256": "d7e05003a4a5502c3e4a29e43f4e9fe2cabcf58f8da4579561b2791dd58e0da3",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/runtime/combat_input_state.js",
+    "bytes": 1856,
+    "zip_bytes": 785,
+    "sha256": "c82f3837173a99be6d6e40f46770f8613ffc3b1c834e52924b75857a7fd2c5a4",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/runtime/entities_and_save.js",
+    "bytes": 2099,
+    "zip_bytes": 1038,
+    "sha256": "2cd0a40173fc75e2652500e2968e3eeb59e0c373963a1baa0e8a45d1209b5324",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/runtime/galaxy_state.js",
+    "bytes": 51,
+    "zip_bytes": 49,
+    "sha256": "9f0c7a2747c4611f24b617c3cf52b8cc76d0db7a96c74142fcf2abe400351147",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/runtime/initial_state.js",
+    "bytes": 1237,
+    "zip_bytes": 735,
+    "sha256": "40181b5e0f47f970a757bfbe392dd5ce8519046a19ce360dd69efbbd24720bdd",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/runtime/navigation_compat.js",
+    "bytes": 3853,
+    "zip_bytes": 1480,
+    "sha256": "a0917fdc0520e3c6a9bade10977fed1aefdbf82d24c9632860d2c8ac7a9d444d",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/runtime/player_boot.js",
+    "bytes": 1395,
+    "zip_bytes": 744,
+    "sha256": "a893bcb6540cac8511bf5469fdf64c96feae8fcf4f648cd18965586e7709e892",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/runtime/player_world_state.js",
+    "bytes": 1047,
+    "zip_bytes": 583,
+    "sha256": "8e0e886daacdecf2c88e67fd2f365f9971f7559d877eb6e0beae8ce5012b2d90",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/runtime/startup.js",
+    "bytes": 3309,
+    "zip_bytes": 1447,
+    "sha256": "1711a5bb0018deaf77c8eb3e2545e8d0d61c19370fc19f0aa46a06d486fdcfc4",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/runtime/system_loading.js",
+    "bytes": 3718,
+    "zip_bytes": 1158,
+    "sha256": "ada7ebdc0b8aa8da886decf4f1106d0d2ded092f5340c09346ce3ed3b18a69ae",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/runtime/update.js",
+    "bytes": 11509,
+    "zip_bytes": 4094,
+    "sha256": "5b888879c1db985be3e215d0f87f9b9047d6ebed320e37ffc7f3852311b8942e",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/shell/head.html",
+    "bytes": 29075,
+    "zip_bytes": 7976,
+    "sha256": "ed1e261a4d3571c5e773c28388498faf568bd0bf888192c26b2a53852df9edd1",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/shell/tail.html",
+    "bytes": 15,
+    "zip_bytes": 17,
+    "sha256": "91ca64bd798c190d9c3921191eee8a7be68a7648c0b410db84f8e575469d38c1",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/shell/three.min.js",
+    "bytes": 669884,
+    "zip_bytes": 167110,
+    "sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ship/atlas.js",
+    "bytes": 11581,
+    "zip_bytes": 4707,
+    "sha256": "b55fd4bbc368a85e7b4c65e22a7f97fd789baad4e80127a22accad006da46d07",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ship/autopilot.js",
+    "bytes": 7017,
+    "zip_bytes": 2079,
+    "sha256": "b11b1e4352dd1ead3787998f5d6cb925896abeb0c636450a4fe56af835910eef",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ship/build_and_furniture.js",
+    "bytes": 2434,
+    "zip_bytes": 1272,
+    "sha256": "d8eed8ed03db3003721491c2eed120b0c1612bc3229a525ad0ee5fec4155d16c",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ship/cargo_and_lights.js",
+    "bytes": 1655,
+    "zip_bytes": 763,
+    "sha256": "e1fcf52558f2c37767314ac4cba032224e61ff37b9bb22accc4184377c763752",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ship/fleet_and_boarding.js",
+    "bytes": 7205,
+    "zip_bytes": 2844,
+    "sha256": "411bcb7bb81703dfee537dfc6ef5af6dc6c4e7a99a3e6b9d8c143af049ba4cb4",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ship/flight.js",
+    "bytes": 12506,
+    "zip_bytes": 3616,
+    "sha256": "289ecbfa683e49acb4acebfa92d32f64c4ecb7889d8f3d8b4886ac02472b7abf",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ship/flight_effects.js",
+    "bytes": 817,
+    "zip_bytes": 384,
+    "sha256": "5cab64735ec152da5fa84eadb61e1c90d9f733e578d202797fd8924e94b2d4b9",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ship/gas_giant_dynamics.js",
+    "bytes": 3447,
+    "zip_bytes": 1444,
+    "sha256": "278d055a561322c012476eee0f0a6739135aed477accc105468ae24c5bff3880",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ship/gate_travel.js",
+    "bytes": 2020,
+    "zip_bytes": 898,
+    "sha256": "7f84a41668dad012db2531e91bee8cadaf8523f6cf219c1676735395fd540af6",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ship/headlights.js",
+    "bytes": 2633,
+    "zip_bytes": 1005,
+    "sha256": "a34c2b534e271b37e6639d6ad16fd260eba82c74c8debb8257d4388f62de96c3",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ship/interactions.js",
+    "bytes": 9347,
+    "zip_bytes": 3505,
+    "sha256": "50a535a43d1f70211a836a134596349f8c12cbe60ccd7e625935c8b610ff1601",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ship/landing_pose.js",
+    "bytes": 1744,
+    "zip_bytes": 761,
+    "sha256": "d862fd342b560a32a83173b43e3c361018a6c5208d93c11959c80c986ba427f2",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ship/landing_sequence.js",
+    "bytes": 3435,
+    "zip_bytes": 1412,
+    "sha256": "519132aee332d84736f7bb0717bb6ae231955d0552609c12d29e70fa109bb475",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ship/manual_flight.js",
+    "bytes": 5972,
+    "zip_bytes": 2098,
+    "sha256": "6c1e4f1558fb77c55a4f24deace23029646ac64cd09b067a939a15e09d4e226d",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ui/cockpit.js",
+    "bytes": 7222,
+    "zip_bytes": 2443,
+    "sha256": "250d2f0e897e833f039e01040f89cf323a4885133b8e1965de2194d07d51616b",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ui/combat_panels.js",
+    "bytes": 9380,
+    "zip_bytes": 3925,
+    "sha256": "a060066b36fe76139cb78bdf178729e6826b8608a8af5f8cd2a9afefda9d602a",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ui/equipment_actions.js",
+    "bytes": 6382,
+    "zip_bytes": 2444,
+    "sha256": "758b7f0001428f0e8580e9b3d9bb67f228d64f015057770713c357e61055b11d",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ui/item_lore.js",
+    "bytes": 1348,
+    "zip_bytes": 497,
+    "sha256": "3c744a70b450819827501c014df3b0c7fb51918102e693981f15d27b5746b309",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ui/map_ship_tooltip.js",
+    "bytes": 804,
+    "zip_bytes": 461,
+    "sha256": "8b771d54fea420825392d2e7e929f891daae12ee87af897b54f0b7430e817821",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ui/menu_and_keyboard.js",
+    "bytes": 4184,
+    "zip_bytes": 1766,
+    "sha256": "3d155c98265c1b9d1a06553f7e8fd1337a5f33bf285bdc7fa3df82c292840f57",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ui/planet_map.js",
+    "bytes": 11035,
+    "zip_bytes": 3728,
+    "sha256": "6450a6f79148e4fd03530366bd475a203ea2fe9c4eeb23cdf723f9325789bbd0",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ui/system_map.js",
+    "bytes": 13695,
+    "zip_bytes": 4500,
+    "sha256": "d8f3400907c41d75ced36b9c6dfe37c039e6528ca948be798e2d4033f7a58964",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/ui/world_panels.js",
+    "bytes": 3307,
+    "zip_bytes": 1579,
+    "sha256": "fab148f0fc7887ffb5115e3f067e8bba86ca41ac2ce17ba502fea87d254b19e8",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/web/audio.js",
+    "bytes": 5055,
+    "zip_bytes": 1943,
+    "sha256": "54c9c8bcdc8c69e1b57926e1c6830f740ec19a6c91a8ec591ee3cc2093d405f1",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/web/batching_and_collision_cache.js",
+    "bytes": 7491,
+    "zip_bytes": 2687,
+    "sha256": "7cf22af98d72ccd05569873b02047983453666a5e3453a9cba60c7516378a39d",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/web/cockpit_textures.js",
+    "bytes": 5274,
+    "zip_bytes": 1720,
+    "sha256": "a35abc1e10b03bda8e4121613d6fec91e80af58192760d574f9dc45e693c6621",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/web/lens_flare.js",
+    "bytes": 7198,
+    "zip_bytes": 2229,
+    "sha256": "f9ddd0825224c654bdfb4dab56d647d12242a06ce0431b1dad98f5ee112cda9c",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/web/preferences.js",
+    "bytes": 3777,
+    "zip_bytes": 1535,
+    "sha256": "4240fbe409dc418b30ab89de82261cf20983dd9f87d15f57486af635770c031d",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/web/public_api.js",
+    "bytes": 3485,
+    "zip_bytes": 1415,
+    "sha256": "e6db1c919b435db36448f9900a29905db889323c6d111db5044bbd9303d57786",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/web/renderer.js",
+    "bytes": 1366,
+    "zip_bytes": 716,
+    "sha256": "b9a0e735db165c030177728ad80075703ec5d355a4068b5f33a284ad8a6a7d5d",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/web/warp_effect.js",
+    "bytes": 2019,
+    "zip_bytes": 837,
+    "sha256": "c0515497665b303811eaff7dec215dd0fd621fbf1ae551900ff95cd51b1c068d",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/web/weapon_audio.js",
+    "bytes": 4366,
+    "zip_bytes": 1395,
+    "sha256": "5bd2b5d63ce6d315c880a6cf655a747c044a6dfcb47d48f7696eb1f1bc32ccf3",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/world/environment.js",
+    "bytes": 19463,
+    "zip_bytes": 7102,
+    "sha256": "65118b1827753e0c6fb1dce99efcb63ab2a8f48b782d424872a153112b007841",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/world/orbits.js",
+    "bytes": 857,
+    "zip_bytes": 366,
+    "sha256": "2cbe0d388a073a53fe112fd17561373475f2a0f978676e5479fcd299e6c45002",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/world/planet_lod.js",
+    "bytes": 3067,
+    "zip_bytes": 1273,
+    "sha256": "d2dd872be326eb2f8fc1e71da5c4cb17e4879ad3d7e65da91731c77614549533",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/world/settlements.js",
+    "bytes": 14511,
+    "zip_bytes": 5864,
+    "sha256": "5026daab41386e0e8e64ce34b3861608df34993edf46505edb9b1021e984a149",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/world/sky.js",
+    "bytes": 2219,
+    "zip_bytes": 898,
+    "sha256": "7e0ee31da12ea27698d28d818aa312160ab10086fa90857de7e51a7b838996f3",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/world/space.js",
+    "bytes": 5459,
+    "zip_bytes": 2053,
+    "sha256": "4b5af96e0877b369f9e46d15bf51590286611feac9a0b5db4dea443f2f0e1afd",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/world/starfield.js",
+    "bytes": 480,
+    "zip_bytes": 306,
+    "sha256": "2af0a64ecdcb3bf473259c2a6c905f35080e92f701c3827f1089f48aa1077cd5",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/world/stations.js",
+    "bytes": 3368,
+    "zip_bytes": 1845,
+    "sha256": "5a767f85f71c48bae1eb87db698e57311e9485e045a5cb297cdd86390fc667b6",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/world/streaming.js",
+    "bytes": 8802,
+    "zip_bytes": 3108,
+    "sha256": "02ab155cf78831397b78ab141938feb222b2c133c1f284714b6a200bd04fff43",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/world/terrain_and_citizens.js",
+    "bytes": 4513,
+    "zip_bytes": 1911,
+    "sha256": "e7538a15f08798bdec94eeba5b03d9a336b217a311fd1e38ebc36f602e43e855",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/world/terrain_helpers.js",
+    "bytes": 1668,
+    "zip_bytes": 850,
+    "sha256": "41d87cd00944fee02b22702b8fd64d8aaf95d00352d7c7fd73939ea6cc50e16f",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/src/world/water.js",
+    "bytes": 1649,
+    "zip_bytes": 735,
+    "sha256": "7963b048623c189c22c3696b1512042e54284a35db2cf00ea7010593b1f77987",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/FALLBACK-v0.3.0.txt",
+    "bytes": 289,
+    "zip_bytes": 203,
+    "sha256": "59198189f50bc1855575546657a003e07e757963ff3b3c631f4d44e1fe3e059c",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/FALLBACK-v0.3.1.txt",
+    "bytes": 289,
+    "zip_bytes": 203,
+    "sha256": "59198189f50bc1855575546657a003e07e757963ff3b3c631f4d44e1fe3e059c",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/FALLBACK-v0.3.2.txt",
+    "bytes": 289,
+    "zip_bytes": 203,
+    "sha256": "59198189f50bc1855575546657a003e07e757963ff3b3c631f4d44e1fe3e059c",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/REPRODUCIBILIDADE-v0.3.2.txt",
+    "bytes": 138,
+    "zip_bytes": 121,
+    "sha256": "514f43ee9b08759cf7ee16353fba16146ca3293f31ab09c4a5b2f441ff6473e2",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/RESULTADO-lowpoly.txt",
+    "bytes": 4545,
+    "zip_bytes": 1647,
+    "sha256": "80f1d8dd69fe773aa466caf5db657b0f5184f76a5d63cced584ed1903cd072cd",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/RESULTADO-proporcoes.txt",
+    "bytes": 4545,
+    "zip_bytes": 1647,
+    "sha256": "35e59723def405fe552692703eba64813e23c4c35188f345860200b91391d77f",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/RESULTADO-v0.2.0.txt",
+    "bytes": 2940,
+    "zip_bytes": 1271,
+    "sha256": "12cd57b952987195b27640c97e3fbd91b24771cc1fd462398fffa5bec2fd360e",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/RESULTADO-v0.3.0.txt",
+    "bytes": 3651,
+    "zip_bytes": 1424,
+    "sha256": "67f2292715c74129d9c4ab4d79352de455e5441f9d7ee555107184806f288358",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/RESULTADO-v0.3.1.txt",
+    "bytes": 4165,
+    "zip_bytes": 1559,
+    "sha256": "dd4566f21d71f09e11f4f383f8bb9eaff938cd7750632cec9151807cdc238313",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/RESULTADO-v0.3.2-fiel.txt",
+    "bytes": 4546,
+    "zip_bytes": 1648,
+    "sha256": "70d08e82298256b2e26aadf2362966dbb780aa2f8fe460bd7dd24ec60a785a57",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/RESULTADO-v0.3.2.txt",
+    "bytes": 4544,
+    "zip_bytes": 1647,
+    "sha256": "51663da8ee2cd75962e8095d5a3318b38feaac3586fee3f78dadaa668a47e9da",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/atlas_runtime_tests.js",
+    "bytes": 6388,
+    "zip_bytes": 2284,
+    "sha256": "c089be4b136ca780c99335f08c8a02996cac87049a0f86507ddcd95c618fcab4",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/atlas_v3_tests.js",
+    "bytes": 9914,
+    "zip_bytes": 3621,
+    "sha256": "14a4505b69d03d0bb3129e683be20e7cd6eb26f64bdbb038ca3b6b844bd656b6",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/baseline.json",
+    "bytes": 451,
+    "zip_bytes": 290,
+    "sha256": "cfad94ea5046cdf92095c4462128a6d975873c0c3345fe34de9c4b9f57c1468b",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/browser_characters.js",
+    "bytes": 2938,
+    "zip_bytes": 1278,
+    "sha256": "e2bcbc7e8fdf2ebe5200248125cb94776160ec0622a0828d4e417411394d4a13",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/character_assets.js",
+    "bytes": 3928,
+    "zip_bytes": 1564,
+    "sha256": "7b30f20dc6cd92ded31797cdbc8d694f51ec1780c07b9a99abf50f70c7eaed35",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/character_regressions.js",
+    "bytes": 3824,
+    "zip_bytes": 1651,
+    "sha256": "b7a662db414c35f9bf1ff6930d51184981695a09732e0274ee60fc1bd5843a65",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/character_runtime_tests.js",
+    "bytes": 11309,
+    "zip_bytes": 4068,
+    "sha256": "d91f61e5442b6383facd46d2b8b1ed81e8f298d2e031c9db68b76b91f86073c7",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/core_rules.js",
+    "bytes": 1549,
+    "zip_bytes": 749,
+    "sha256": "18790eb2c872bf5083e6fb04123ab141c7150092e464d5b2c9c94e4466ea3444",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/refactor_equivalence.js",
+    "bytes": 1706,
+    "zip_bytes": 842,
+    "sha256": "58c17261888a132d7e6d061faa332dfd0f9442f02dc18aa14d25587c056e3998",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/run_all_tests.js",
+    "bytes": 572,
+    "zip_bytes": 318,
+    "sha256": "66127747de09090d3f82c4bd2b316284c28fd1d043bafb8eb5aad1c9ec0c7489",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tests/tripo_player.js",
+    "bytes": 2998,
+    "zip_bytes": 1487,
+    "sha256": "61dfdfa633e24792a2ef38e6e17124c896a4d6287953055e36c7db124013ed05",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tools/blender_characters.py",
+    "bytes": 1574,
+    "zip_bytes": 802,
+    "sha256": "d9ff2250acd6ee3b7ac5cdfb0fd4c35233934e546710ceff4af078dd2f0f04c5",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tools/build_character_preview.js",
+    "bytes": 504,
+    "zip_bytes": 281,
+    "sha256": "ab72c753372ae5ee6556aa37271e8c6688b1dbf7235e296961509038f0c91f1e",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tools/character_preview.html",
+    "bytes": 6734,
+    "zip_bytes": 2987,
+    "sha256": "d856f1f3a2af7e1300d876dd9254be273779312bd2576c0ea5af4c60d394941f",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tools/find.js",
+    "bytes": 752,
+    "zip_bytes": 460,
+    "sha256": "25c5e1ea281655b0a9b1f4da77911b101beeb0bd707eb72919f672ab95e57876",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tools/prepare_characters.py",
+    "bytes": 17975,
+    "zip_bytes": 6992,
+    "sha256": "caadc3aeb1bb65231513e35f71745ddc69d079c30c46da72689f2c23a0fcc3a1",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tools/prepare_tripo_player.py",
+    "bytes": 8224,
+    "zip_bytes": 3437,
+    "sha256": "fc4ca6bacb8787e3ae1b260ba1f22d04bd344ed4a30e6f2a25a80c3aa8b0b1b3",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tools/render_character_poses.py",
+    "bytes": 3176,
+    "zip_bytes": 1384,
+    "sha256": "4aa25bd36d2c500d9f71dfb132e8c280a78369740a5a5d4c11dd3c6116b57e6c",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tools/render_characters_blender.py",
+    "bytes": 2013,
+    "zip_bytes": 932,
+    "sha256": "a32f0a0e8f827a4d1333644e4fd8d452da66342f2411e2ff285c73d3982ac5ed",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tools/repair_lowpoly_skin.py",
+    "bytes": 3234,
+    "zip_bytes": 1580,
+    "sha256": "9d634805ed818add90c62da655c88657d4b94c593b2f8de18c1376921ed954a0",
+    "destino": "trabalho"
+  },
+  {
+    "path": "SkyWard/tools/requirements-characters.txt",
+    "bytes": 19,
+    "zip_bytes": 19,
+    "sha256": "c99cf2ded2c3e1bf83bd0fa673164d544a6249f41ce27bdb8c6aa63e3cb2100f",
+    "destino": "trabalho"
+  }
+]

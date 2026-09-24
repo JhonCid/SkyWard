@@ -1,0 +1,38 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SkyWard — personagens v0.3.2</title>
+<style>body{margin:0;background:#111b24;color:#dce7ed;font:14px system-ui}canvas{display:block}aside{position:fixed;top:12px;left:12px;width:270px;max-height:90vh;overflow:auto;padding:16px;background:#111c28ed;border:1px solid #3c5465;border-radius:10px}h1{font-size:18px;margin:0 0 12px}label{display:block;margin:12px 0}select,button{background:#263c4e;color:white;border:1px solid #617c8e;border-radius:4px;padding:8px;width:100%}input[type=range]{width:100%}small{color:#a4becf}#error{color:#ffb1a0}@media(max-width:600px){aside{width:195px;font-size:12px;padding:10px}h1{font-size:15px}}</style>
+<aside><h1>SkyWard · Personagens</h1><small>Arraste para girar · role para aproximar</small>
+<label>Modelo<select id="model"><option value="player">Jogador masculino</option><option value="male">NPC masculino</option><option value="female">NPC feminino</option></select></label>
+<label>Paleta<select id="palette"><option value="explorer">Explorador</option><option value="ranger">Patrulheiro</option><option value="engineer">Engenheiro</option><option value="arctic">Polar</option></select></label>
+<label>Cabelo<select id="hair"><option value="0">Curto</option><option value="1">Médio</option><option value="2">Rente</option></select></label>
+<label><input type="checkbox" id="helmet"> Capacete no NPC</label>
+<label>Animação<select id="clip"><option value="auto">Locomoção combinada</option></select></label>
+<label>Velocidade de movimento<input id="speed" type="range" min="0" max="7.2" step=".1" value="0"></label>
+<label>Velocidade da animação<input id="rate" type="range" min="0" max="2" step=".1" value="1"></label>
+<label><input type="checkbox" id="bones"> Exibir esqueleto</label>
+<label><input type="checkbox" id="ramp"> Testar apoio numa rampa</label>
+<label>Inclinação da gravidade<input id="gravity" type="range" min="-90" max="90" value="0"></label>
+<label>Detalhe<select id="lod"><option value="0">Próximo</option><option value="1">Distante</option><option value="2">Muito distante</option></select></label>
+<button id="pause">Pausar</button><p id="stats"></p><p id="error"></p><small>Modelos adaptados de Quaternius · CC0. Clipes compartilhados; nenhuma textura de imagem.</small></aside>
+<!-- SCRIPTS -->
+<script>
+const $=id=>document.getElementById(id),C=window.SkywardCharacters;
+try{
+const scene=new THREE.Scene();scene.background=new THREE.Color(0x111b24);
+const camera=new THREE.PerspectiveCamera(45,innerWidth/innerHeight,.01,100),renderer=new THREE.WebGLRenderer({antialias:true});renderer.setSize(innerWidth,innerHeight);renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.4;document.body.prepend(renderer.domElement);
+scene.add(new THREE.HemisphereLight(0xd2efff,0x435061,2));const light=new THREE.DirectionalLight(0xffecda,3);light.position.set(-3,5,-4);scene.add(light);
+const world=new THREE.Group();scene.add(world);let actor,state,helper,paused=false,theta=.35,phi=1.35,distance=3.6,last=performance.now(),floor;
+const colors={explorer:[0x415764,0xb15543],ranger:[0x414f42,0x82936c],engineer:[0x504a40,0xd8a465],arctic:[0xb9c9cb,0x5d8f9e]};
+for(const a of [...C.asset.animations,{name:'Air_Controlled'},{name:'Jetpack_Loop'}]){const o=document.createElement('option');o.value=a.name;o.textContent=a.name;$('clip').appendChild(o);}
+function rebuild(){if(actor){C.dispose(actor);world.remove(actor);world.remove(helper);helper.geometry.dispose();helper.material.dispose();}
+let [color,accent]=colors[$('palette').value];if($('model').value==='player'&&$('palette').value==='explorer'){color=0x535660;accent=0x9c2340;}actor=C.create({player:$('model').value==='player',sex:$('model').value==='female'?'female':'male',helmet:$('model').value==='player'||$('helmet').checked,color,accent,hairStyle:Number($('hair').value)});world.add(actor);state=actor.userData.character;helper=new THREE.SkeletonHelper(actor);world.add(helper);choose();}
+function choose(){state.mixer.stopAllAction();state.actions.clear();state.forced=null;if($('clip').value!=='auto')state.forced={name:$('clip').value,mask:'all',until:Infinity};}
+for(const id of ['model','palette','hair','helmet'])$(id).onchange=rebuild;$('clip').onchange=choose;$('pause').onclick=()=>{paused=!paused;$('pause').textContent=paused?'Continuar':'Pausar';};
+function ground(){if(floor){world.remove(floor);floor.geometry.dispose();floor.material.dispose();}const slope=$('ramp').checked?.16:0,g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute([-2,-2*slope, -2, 2,-2*slope,-2, 2,2*slope,2, -2,-2*slope,-2, 2,2*slope,2, -2,2*slope,2],3));g.computeVertexNormals();floor=new THREE.Mesh(g,new THREE.MeshStandardMaterial({color:0x304657,side:THREE.DoubleSide,roughness:1}));world.add(floor);}
+$('ramp').onchange=ground;ground();rebuild();
+let pointer=null;renderer.domElement.onpointerdown=e=>{pointer=[e.clientX,e.clientY];renderer.domElement.setPointerCapture(e.pointerId);};renderer.domElement.onpointermove=e=>{if(!pointer)return;theta-=(e.clientX-pointer[0])*.007;phi=THREE.MathUtils.clamp(phi+(e.clientY-pointer[1])*.007,.3,2.6);pointer=[e.clientX,e.clientY];};renderer.domElement.onpointerup=()=>pointer=null;renderer.domElement.addEventListener('wheel',e=>{e.preventDefault();distance=THREE.MathUtils.clamp(distance+e.deltaY*.004,1.2,7);},{passive:false});
+function frame(){requestAnimationFrame(frame);const now=performance.now(),dt=Math.min(.04,(now-last)/1000);last=now;world.rotation.z=Number($('gravity').value)*Math.PI/180;world.updateMatrixWorld(true);C.setLOD(state,Number($('lod').value));
+if(!paused){C.update(state,dt*Number($('rate').value),{speed:Number($('speed').value),grounded:true,ground:(pos,up)=>{const p=world.worldToLocal(pos.clone());p.y=($('ramp').checked?.16:0)*p.z;return world.localToWorld(p);}});for(const a of state.actions.values())if(state.forced)a.setLoop(THREE.LoopRepeat,Infinity);}
+helper.visible=$('bones').checked;camera.position.set(Math.sin(theta)*Math.sin(phi)*distance,1+Math.cos(phi)*distance,-Math.cos(theta)*Math.sin(phi)*distance);camera.lookAt(0,.95,0);renderer.render(scene,camera);$('stats').textContent=state.meshes.reduce((n,m)=>n+m.geometry.attributes.position.count/3,0).toLocaleString('pt-BR')+' triângulos · '+state.bones.length+' ossos · '+state.meshes.length+' materiais';}
+onresize=()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);};frame();
+}catch(e){$('error').textContent=e.message;console.error(e);}
+</script></html>

@@ -1,0 +1,3980 @@
+[
+  {
+    "symbol": "performancePrefs",
+    "file": "web/preferences.js",
+    "line": 2,
+    "kind": "const"
+  },
+  {
+    "symbol": "performanceReady",
+    "file": "web/preferences.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "applyPerformance",
+    "file": "web/preferences.js",
+    "line": 4,
+    "kind": "function"
+  },
+  {
+    "symbol": "setPerformance",
+    "file": "web/preferences.js",
+    "line": 5,
+    "kind": "function"
+  },
+  {
+    "symbol": "applyQuality",
+    "file": "web/preferences.js",
+    "line": 6,
+    "kind": "function"
+  },
+  {
+    "symbol": "loadPerformance",
+    "file": "web/preferences.js",
+    "line": 7,
+    "kind": "function"
+  },
+  {
+    "symbol": "performanceSettings",
+    "file": "web/preferences.js",
+    "line": 8,
+    "kind": "function"
+  },
+  {
+    "symbol": "leaveSeatGesture",
+    "file": "input/camera_controls.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "pinchDown",
+    "file": "input/camera_controls.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "pinchMove",
+    "file": "input/camera_controls.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "controlPrefs",
+    "file": "input/camera_controls.js",
+    "line": 7,
+    "kind": "const"
+  },
+  {
+    "symbol": "cameraZoom",
+    "file": "input/camera_controls.js",
+    "line": 8,
+    "kind": "const"
+  },
+  {
+    "symbol": "pinchGesture",
+    "file": "input/camera_controls.js",
+    "line": 18,
+    "kind": "let"
+  },
+  {
+    "symbol": "setSensitivity",
+    "file": "input/camera_controls.js",
+    "line": 19,
+    "kind": "function"
+  },
+  {
+    "symbol": "loadControls",
+    "file": "input/camera_controls.js",
+    "line": 20,
+    "kind": "function"
+  },
+  {
+    "symbol": "toggleShipLook",
+    "file": "input/camera_controls.js",
+    "line": 21,
+    "kind": "function"
+  },
+  {
+    "symbol": "cameraZoomTarget",
+    "file": "input/camera_controls.js",
+    "line": 22,
+    "kind": "const"
+  },
+  {
+    "symbol": "camTransitionAlpha",
+    "file": "input/camera_controls.js",
+    "line": 23,
+    "kind": "let"
+  },
+  {
+    "symbol": "thirdPersonCamPos",
+    "file": "input/camera_controls.js",
+    "line": 24,
+    "kind": "let"
+  },
+  {
+    "symbol": "thirdPersonCamLook",
+    "file": "input/camera_controls.js",
+    "line": 25,
+    "kind": "let"
+  },
+  {
+    "symbol": "zoomOverflow",
+    "file": "input/camera_controls.js",
+    "line": 27,
+    "kind": "let"
+  },
+  {
+    "symbol": "zoomCamera",
+    "file": "input/camera_controls.js",
+    "line": 28,
+    "kind": "function"
+  },
+  {
+    "symbol": "shipHeadlightsActive",
+    "file": "ship/headlights.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "shipHeadlightL",
+    "file": "ship/headlights.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "shipHeadlightR",
+    "file": "ship/headlights.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "roverHeadlight",
+    "file": "ship/headlights.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "shipExteriorLights",
+    "file": "ship/headlights.js",
+    "line": 3,
+    "kind": "const"
+  },
+  {
+    "symbol": "shipCommodities",
+    "file": "ship/headlights.js",
+    "line": 4,
+    "kind": "const"
+  },
+  {
+    "symbol": "reputation",
+    "file": "ship/headlights.js",
+    "line": 5,
+    "kind": "const"
+  },
+  {
+    "symbol": "miningLaserActive",
+    "file": "ship/headlights.js",
+    "line": 6,
+    "kind": "let"
+  },
+  {
+    "symbol": "miningLaserTarget",
+    "file": "ship/headlights.js",
+    "line": 7,
+    "kind": "let"
+  },
+  {
+    "symbol": "shipCargoGroup",
+    "file": "ship/headlights.js",
+    "line": 9,
+    "kind": "let"
+  },
+  {
+    "symbol": "headlightMode",
+    "file": "ship/headlights.js",
+    "line": 11,
+    "kind": "let"
+  },
+  {
+    "symbol": "updateHeadlightsState",
+    "file": "ship/headlights.js",
+    "line": 13,
+    "kind": "function"
+  },
+  {
+    "symbol": "cycleHeadlightMode",
+    "file": "ship/headlights.js",
+    "line": 41,
+    "kind": "function"
+  },
+  {
+    "symbol": "terrainCameraClearance",
+    "file": "camera/clearance.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "shipCameraOutside",
+    "file": "camera/clearance.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "safeChaseCamera",
+    "file": "camera/clearance.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "landingProbes",
+    "file": "ship/landing_pose.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "landingPose",
+    "file": "ship/landing_pose.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "landingGears",
+    "file": "ship/landing_sequence.js",
+    "line": 2,
+    "kind": "const"
+  },
+  {
+    "symbol": "shipGearProgress",
+    "file": "ship/landing_sequence.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "shipGearSuspension",
+    "file": "ship/landing_sequence.js",
+    "line": 4,
+    "kind": "let"
+  },
+  {
+    "symbol": "takeoffGrace",
+    "file": "ship/landing_sequence.js",
+    "line": 5,
+    "kind": "let"
+  },
+  {
+    "symbol": "shipTiltPitch",
+    "file": "ship/landing_sequence.js",
+    "line": 6,
+    "kind": "let"
+  },
+  {
+    "symbol": "shipTiltRoll",
+    "file": "ship/landing_sequence.js",
+    "line": 6,
+    "kind": "let"
+  },
+  {
+    "symbol": "shipTiltYaw",
+    "file": "ship/landing_sequence.js",
+    "line": 6,
+    "kind": "let"
+  },
+  {
+    "symbol": "shipNavQuaternion",
+    "file": "ship/landing_sequence.js",
+    "line": 7,
+    "kind": "const"
+  },
+  {
+    "symbol": "landingSequence",
+    "file": "ship/landing_sequence.js",
+    "line": 8,
+    "kind": "let"
+  },
+  {
+    "symbol": "finishLanding",
+    "file": "ship/landing_sequence.js",
+    "line": 15,
+    "kind": "function"
+  },
+  {
+    "symbol": "startLandingSequence",
+    "file": "ship/landing_sequence.js",
+    "line": 16,
+    "kind": "function"
+  },
+  {
+    "symbol": "land",
+    "file": "ship/landing_sequence.js",
+    "line": 33,
+    "kind": "function"
+  },
+  {
+    "symbol": "planetLocalNormal",
+    "file": "runtime/initial_state.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "$",
+    "file": "runtime/initial_state.js",
+    "line": 9,
+    "kind": "const"
+  },
+  {
+    "symbol": "V",
+    "file": "runtime/initial_state.js",
+    "line": 9,
+    "kind": "const"
+  },
+  {
+    "symbol": "UP",
+    "file": "runtime/initial_state.js",
+    "line": 9,
+    "kind": "const"
+  },
+  {
+    "symbol": "clock",
+    "file": "runtime/initial_state.js",
+    "line": 9,
+    "kind": "const"
+  },
+  {
+    "symbol": "mobileDevice",
+    "file": "runtime/initial_state.js",
+    "line": 10,
+    "kind": "const"
+  },
+  {
+    "symbol": "shops",
+    "file": "runtime/initial_state.js",
+    "line": 11,
+    "kind": "const"
+  },
+  {
+    "symbol": "enemies",
+    "file": "runtime/initial_state.js",
+    "line": 11,
+    "kind": "const"
+  },
+  {
+    "symbol": "projectiles",
+    "file": "runtime/initial_state.js",
+    "line": 11,
+    "kind": "const"
+  },
+  {
+    "symbol": "combatParticles",
+    "file": "runtime/initial_state.js",
+    "line": 11,
+    "kind": "const"
+  },
+  {
+    "symbol": "touchEnabled",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "quality",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "particlesEnabled",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "touchX",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "touchY",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "firing",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "recoil",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastShot",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "reloadUntil",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "combatTime",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastHurt",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "ambushAt",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "enemySerial",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "damageFlash",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "activeShop",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "threat",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "weaponView",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "ambientDust",
+    "file": "runtime/initial_state.js",
+    "line": 12,
+    "kind": "let"
+  },
+  {
+    "symbol": "health",
+    "file": "runtime/initial_state.js",
+    "line": 13,
+    "kind": "let"
+  },
+  {
+    "symbol": "suitShield",
+    "file": "runtime/initial_state.js",
+    "line": 13,
+    "kind": "let"
+  },
+  {
+    "symbol": "hull",
+    "file": "runtime/initial_state.js",
+    "line": 13,
+    "kind": "let"
+  },
+  {
+    "symbol": "shipShield",
+    "file": "runtime/initial_state.js",
+    "line": 13,
+    "kind": "let"
+  },
+  {
+    "symbol": "vehicleHealth",
+    "file": "runtime/initial_state.js",
+    "line": 13,
+    "kind": "let"
+  },
+  {
+    "symbol": "vehicleKind",
+    "file": "runtime/initial_state.js",
+    "line": 13,
+    "kind": "let"
+  },
+  {
+    "symbol": "equipped",
+    "file": "runtime/initial_state.js",
+    "line": 13,
+    "kind": "let"
+  },
+  {
+    "symbol": "equipment",
+    "file": "runtime/initial_state.js",
+    "line": 14,
+    "kind": "const"
+  },
+  {
+    "symbol": "magazines",
+    "file": "runtime/initial_state.js",
+    "line": 15,
+    "kind": "const"
+  },
+  {
+    "symbol": "weaponDefs",
+    "file": "data/equipment_catalog.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "storeDefs",
+    "file": "data/equipment_catalog.js",
+    "line": 11,
+    "kind": "const"
+  },
+  {
+    "symbol": "products",
+    "file": "data/equipment_catalog.js",
+    "line": 12,
+    "kind": "const"
+  },
+  {
+    "symbol": "storeSets",
+    "file": "data/equipment_catalog.js",
+    "line": 13,
+    "kind": "const"
+  },
+  {
+    "symbol": "combatRng",
+    "file": "runtime/combat_input_state.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "controlledPosition",
+    "file": "runtime/combat_input_state.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "roverTouchSteer",
+    "file": "runtime/combat_input_state.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "roverLookOnly",
+    "file": "runtime/combat_input_state.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "roverLinearSpeed",
+    "file": "runtime/combat_input_state.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "roverSteerInput",
+    "file": "runtime/combat_input_state.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "punchHand",
+    "file": "runtime/combat_input_state.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastUnarmedAttackTime",
+    "file": "runtime/combat_input_state.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "unarmedRaiseBlend",
+    "file": "runtime/combat_input_state.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "axisForward",
+    "file": "runtime/combat_input_state.js",
+    "line": 14,
+    "kind": "function"
+  },
+  {
+    "symbol": "axisStrafe",
+    "file": "runtime/combat_input_state.js",
+    "line": 15,
+    "kind": "function"
+  },
+  {
+    "symbol": "hasAncestorFlag",
+    "file": "runtime/combat_input_state.js",
+    "line": 19,
+    "kind": "function"
+  },
+  {
+    "symbol": "discardChildren",
+    "file": "runtime/combat_input_state.js",
+    "line": 21,
+    "kind": "function"
+  },
+  {
+    "symbol": "seaRadius",
+    "file": "runtime/combat_input_state.js",
+    "line": 23,
+    "kind": "function"
+  },
+  {
+    "symbol": "VERSION",
+    "file": "runtime/player_world_state.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "settlements",
+    "file": "runtime/player_world_state.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "traffic",
+    "file": "runtime/player_world_state.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "planetLODs",
+    "file": "runtime/player_world_state.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "shipInteractables",
+    "file": "runtime/player_world_state.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "cockpit3DButtons",
+    "file": "runtime/player_world_state.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "targetedCockpitButton",
+    "file": "runtime/player_world_state.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "settlementProfiles",
+    "file": "runtime/player_world_state.js",
+    "line": 2,
+    "kind": "const"
+  },
+  {
+    "symbol": "camBobPhase",
+    "file": "runtime/player_world_state.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "camLandDip",
+    "file": "runtime/player_world_state.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "camWasGrounded",
+    "file": "runtime/player_world_state.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "camMeleeShake",
+    "file": "runtime/player_world_state.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "thirdPerson",
+    "file": "runtime/player_world_state.js",
+    "line": 4,
+    "kind": "let"
+  },
+  {
+    "symbol": "avatar",
+    "file": "runtime/player_world_state.js",
+    "line": 4,
+    "kind": "let"
+  },
+  {
+    "symbol": "resting",
+    "file": "runtime/player_world_state.js",
+    "line": 4,
+    "kind": "let"
+  },
+  {
+    "symbol": "jumpVelocity",
+    "file": "runtime/player_world_state.js",
+    "line": 4,
+    "kind": "let"
+  },
+  {
+    "symbol": "jetFuel",
+    "file": "runtime/player_world_state.js",
+    "line": 4,
+    "kind": "let"
+  },
+  {
+    "symbol": "jumpHeld",
+    "file": "runtime/player_world_state.js",
+    "line": 4,
+    "kind": "let"
+  },
+  {
+    "symbol": "jumpWasDown",
+    "file": "runtime/player_world_state.js",
+    "line": 4,
+    "kind": "let"
+  },
+  {
+    "symbol": "onFootGround",
+    "file": "runtime/player_world_state.js",
+    "line": 4,
+    "kind": "let"
+  },
+  {
+    "symbol": "jetActive",
+    "file": "runtime/player_world_state.js",
+    "line": 4,
+    "kind": "let"
+  },
+  {
+    "symbol": "footContext",
+    "file": "runtime/player_world_state.js",
+    "line": 4,
+    "kind": "let"
+  },
+  {
+    "symbol": "activeLocker",
+    "file": "runtime/player_world_state.js",
+    "line": 4,
+    "kind": "let"
+  },
+  {
+    "symbol": "lodTimer",
+    "file": "runtime/player_world_state.js",
+    "line": 4,
+    "kind": "let"
+  },
+  {
+    "symbol": "outfitColors",
+    "file": "runtime/player_world_state.js",
+    "line": 5,
+    "kind": "const"
+  },
+  {
+    "symbol": "outfit",
+    "file": "runtime/player_world_state.js",
+    "line": 6,
+    "kind": "let"
+  },
+  {
+    "symbol": "jetLevel",
+    "file": "runtime/player_world_state.js",
+    "line": 6,
+    "kind": "let"
+  },
+  {
+    "symbol": "ownedOutfits",
+    "file": "runtime/player_world_state.js",
+    "line": 6,
+    "kind": "let"
+  },
+  {
+    "symbol": "locker",
+    "file": "runtime/player_world_state.js",
+    "line": 7,
+    "kind": "const"
+  },
+  {
+    "symbol": "staticGrid",
+    "file": "runtime/player_world_state.js",
+    "line": 8,
+    "kind": "const"
+  },
+  {
+    "symbol": "gridReady",
+    "file": "runtime/player_world_state.js",
+    "line": 8,
+    "kind": "let"
+  },
+  {
+    "symbol": "statV05",
+    "file": "runtime/player_world_state.js",
+    "line": 9,
+    "kind": "const"
+  },
+  {
+    "symbol": "jetCapacity",
+    "file": "runtime/player_world_state.js",
+    "line": 10,
+    "kind": "function"
+  },
+  {
+    "symbol": "planetUp",
+    "file": "runtime/player_world_state.js",
+    "line": 11,
+    "kind": "function"
+  },
+  {
+    "symbol": "touches",
+    "file": "input/gesture_state.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "pendingTaps",
+    "file": "input/gesture_state.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "inputNow",
+    "file": "input/gesture_state.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "autoForward",
+    "file": "input/gesture_state.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "shipLookOnly",
+    "file": "input/gesture_state.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "aiming",
+    "file": "input/gesture_state.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "aimOwner",
+    "file": "input/gesture_state.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "aimBlend",
+    "file": "input/gesture_state.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "mobileJumpHeld",
+    "file": "input/gesture_state.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "mobileJumpBoost",
+    "file": "input/gesture_state.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "jumpOwner",
+    "file": "input/gesture_state.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "gestureMode",
+    "file": "input/gesture_state.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "weaponPress",
+    "file": "input/gesture_state.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "weaponItemPress",
+    "file": "input/gesture_state.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "weaponInfoHeld",
+    "file": "input/gesture_state.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "recentEquipment",
+    "file": "input/gesture_state.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "cyclingEquipment",
+    "file": "input/gesture_state.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "stripSignature",
+    "file": "input/gesture_state.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "steerPixels",
+    "file": "input/gesture_state.js",
+    "line": 4,
+    "kind": "const"
+  },
+  {
+    "symbol": "angularVelocity",
+    "file": "input/gesture_state.js",
+    "line": 4,
+    "kind": "const"
+  },
+  {
+    "symbol": "manualVelocity",
+    "file": "input/gesture_state.js",
+    "line": 4,
+    "kind": "const"
+  },
+  {
+    "symbol": "thrustAcceleration",
+    "file": "input/gesture_state.js",
+    "line": 5,
+    "kind": "let"
+  },
+  {
+    "symbol": "sideSpeed",
+    "file": "input/gesture_state.js",
+    "line": 5,
+    "kind": "let"
+  },
+  {
+    "symbol": "liftSpeed",
+    "file": "input/gesture_state.js",
+    "line": 5,
+    "kind": "let"
+  },
+  {
+    "symbol": "touchRoll",
+    "file": "input/gesture_state.js",
+    "line": 5,
+    "kind": "let"
+  },
+  {
+    "symbol": "touchLift",
+    "file": "input/gesture_state.js",
+    "line": 5,
+    "kind": "let"
+  },
+  {
+    "symbol": "manualWasActive",
+    "file": "input/gesture_state.js",
+    "line": 5,
+    "kind": "let"
+  },
+  {
+    "symbol": "DOUBLE_MS",
+    "file": "input/gesture_state.js",
+    "line": 6,
+    "kind": "const"
+  },
+  {
+    "symbol": "HOLD_MS",
+    "file": "input/gesture_state.js",
+    "line": 6,
+    "kind": "const"
+  },
+  {
+    "symbol": "SECOND_HOLD_MS",
+    "file": "input/gesture_state.js",
+    "line": 6,
+    "kind": "const"
+  },
+  {
+    "symbol": "DRAG_PX",
+    "file": "input/gesture_state.js",
+    "line": 6,
+    "kind": "const"
+  },
+  {
+    "symbol": "sprinting",
+    "file": "input/gesture_state.js",
+    "line": 8,
+    "kind": "function"
+  },
+  {
+    "symbol": "haptic",
+    "file": "input/gesture_state.js",
+    "line": 9,
+    "kind": "function"
+  },
+  {
+    "symbol": "aimCapable",
+    "file": "input/gesture_state.js",
+    "line": 10,
+    "kind": "function"
+  },
+  {
+    "symbol": "bodyCache",
+    "file": "web/renderer.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "cityBatches",
+    "file": "web/renderer.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "cityBatchTime",
+    "file": "web/renderer.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "humanSerial",
+    "file": "web/renderer.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "environment",
+    "file": "web/renderer.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "rainLines",
+    "file": "web/renderer.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "disasterFX",
+    "file": "web/renderer.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "scene",
+    "file": "web/renderer.js",
+    "line": 2,
+    "kind": "const"
+  },
+  {
+    "symbol": "camera",
+    "file": "web/renderer.js",
+    "line": 2,
+    "kind": "const"
+  },
+  {
+    "symbol": "renderer",
+    "file": "web/renderer.js",
+    "line": 3,
+    "kind": "const"
+  },
+  {
+    "symbol": "sunlight",
+    "file": "web/renderer.js",
+    "line": 4,
+    "kind": "const"
+  },
+  {
+    "symbol": "mat",
+    "file": "web/renderer.js",
+    "line": 5,
+    "kind": "const"
+  },
+  {
+    "symbol": "mesh",
+    "file": "web/renderer.js",
+    "line": 6,
+    "kind": "function"
+  },
+  {
+    "symbol": "box",
+    "file": "web/renderer.js",
+    "line": 7,
+    "kind": "function"
+  },
+  {
+    "symbol": "staticBodies",
+    "file": "physics/collision.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "movingBodies",
+    "file": "physics/collision.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "collisionReady",
+    "file": "physics/collision.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "belongsTo",
+    "file": "physics/collision.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "makeBody",
+    "file": "physics/collision.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "refreshBody",
+    "file": "physics/collision.js",
+    "line": 4,
+    "kind": "function"
+  },
+  {
+    "symbol": "surfacePoint",
+    "file": "physics/collision.js",
+    "line": 6,
+    "kind": "function"
+  },
+  {
+    "symbol": "upAt",
+    "file": "physics/collision.js",
+    "line": 7,
+    "kind": "function"
+  },
+  {
+    "symbol": "groundEye",
+    "file": "physics/collision.js",
+    "line": 9,
+    "kind": "function"
+  },
+  {
+    "symbol": "supportEye",
+    "file": "physics/collision.js",
+    "line": 10,
+    "kind": "function"
+  },
+  {
+    "symbol": "spherePush",
+    "file": "physics/collision.js",
+    "line": 12,
+    "kind": "function"
+  },
+  {
+    "symbol": "moveActor",
+    "file": "physics/collision.js",
+    "line": 13,
+    "kind": "function"
+  },
+  {
+    "symbol": "moveGround",
+    "file": "physics/collision.js",
+    "line": 14,
+    "kind": "function"
+  },
+  {
+    "symbol": "safeExit",
+    "file": "physics/collision.js",
+    "line": 16,
+    "kind": "function"
+  },
+  {
+    "symbol": "rng",
+    "file": "core/random.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "currentSystem",
+    "file": "runtime/galaxy_state.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "hash2D",
+    "file": "core/galaxy_graph.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "hasVertEdge",
+    "file": "core/galaxy_graph.js",
+    "line": 8,
+    "kind": "function"
+  },
+  {
+    "symbol": "getSystemNeighbors",
+    "file": "core/galaxy_graph.js",
+    "line": 14,
+    "kind": "function"
+  },
+  {
+    "symbol": "getTargetGateIndex",
+    "file": "core/galaxy_graph.js",
+    "line": 27,
+    "kind": "function"
+  },
+  {
+    "symbol": "sysRoots",
+    "file": "data/system_names.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "sysMods",
+    "file": "data/system_names.js",
+    "line": 9,
+    "kind": "const"
+  },
+  {
+    "symbol": "getSystemName",
+    "file": "core/system_names.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "starPalettes",
+    "file": "data/planets.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "planetNameList",
+    "file": "data/planets.js",
+    "line": 10,
+    "kind": "const"
+  },
+  {
+    "symbol": "biomePool",
+    "file": "data/planets.js",
+    "line": 18,
+    "kind": "const"
+  },
+  {
+    "symbol": "defs",
+    "file": "data/planets.js",
+    "line": 35,
+    "kind": "const"
+  },
+  {
+    "symbol": "getPlanetDefs",
+    "file": "core/planet_definitions.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "SEP",
+    "file": "world/space.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "ATMOSPHERE",
+    "file": "world/space.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "gates",
+    "file": "world/space.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "suns",
+    "file": "world/space.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "boost",
+    "file": "world/space.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "gateCooldown",
+    "file": "world/space.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "autoGate",
+    "file": "world/space.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "heat",
+    "file": "world/space.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "systemOf",
+    "file": "world/space.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "nearest",
+    "file": "world/space.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "atmosphereAt",
+    "file": "world/space.js",
+    "line": 4,
+    "kind": "function"
+  },
+  {
+    "symbol": "createSystemSpace",
+    "file": "world/space.js",
+    "line": 21,
+    "kind": "function"
+  },
+  {
+    "symbol": "crossesGate",
+    "file": "ship/gate_travel.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "triggerBoost",
+    "file": "ship/gate_travel.js",
+    "line": 20,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateSky",
+    "file": "world/sky.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "WARP_PARTICLE_COUNT",
+    "file": "web/warp_effect.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "warpPositions",
+    "file": "web/warp_effect.js",
+    "line": 2,
+    "kind": "const"
+  },
+  {
+    "symbol": "warpGeo",
+    "file": "web/warp_effect.js",
+    "line": 3,
+    "kind": "const"
+  },
+  {
+    "symbol": "warpMat",
+    "file": "web/warp_effect.js",
+    "line": 5,
+    "kind": "const"
+  },
+  {
+    "symbol": "warpStream",
+    "file": "web/warp_effect.js",
+    "line": 12,
+    "kind": "const"
+  },
+  {
+    "symbol": "warpParticles",
+    "file": "web/warp_effect.js",
+    "line": 18,
+    "kind": "const"
+  },
+  {
+    "symbol": "updateWarpStream",
+    "file": "web/warp_effect.js",
+    "line": 29,
+    "kind": "function"
+  },
+  {
+    "symbol": "flareIntensity",
+    "file": "web/lens_flare.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "drawLensFlare",
+    "file": "web/lens_flare.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateFlightFx",
+    "file": "ship/flight_effects.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "flightObstacle",
+    "file": "runtime/navigation_compat.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "autoDestination",
+    "file": "runtime/navigation_compat.js",
+    "line": 11,
+    "kind": "function"
+  },
+  {
+    "symbol": "getTotalCargo",
+    "file": "runtime/navigation_compat.js",
+    "line": 23,
+    "kind": "function"
+  },
+  {
+    "symbol": "toggleHeadlights",
+    "file": "runtime/navigation_compat.js",
+    "line": 27,
+    "kind": "function"
+  },
+  {
+    "symbol": "vehicleCamIdleTime",
+    "file": "runtime/navigation_compat.js",
+    "line": 55,
+    "kind": "let"
+  },
+  {
+    "symbol": "footFreeCam",
+    "file": "runtime/navigation_compat.js",
+    "line": 55,
+    "kind": "let"
+  },
+  {
+    "symbol": "footCamIdleTime",
+    "file": "runtime/navigation_compat.js",
+    "line": 55,
+    "kind": "let"
+  },
+  {
+    "symbol": "footOrbitYaw",
+    "file": "runtime/navigation_compat.js",
+    "line": 55,
+    "kind": "let"
+  },
+  {
+    "symbol": "smoothRoverCamTarget",
+    "file": "runtime/navigation_compat.js",
+    "line": 67,
+    "kind": "let"
+  },
+  {
+    "symbol": "vehicleCamYaw",
+    "file": "runtime/navigation_compat.js",
+    "line": 67,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastFootWalkAngle",
+    "file": "runtime/navigation_compat.js",
+    "line": 67,
+    "kind": "let"
+  },
+  {
+    "symbol": "grenadeThrowing",
+    "file": "runtime/navigation_compat.js",
+    "line": 79,
+    "kind": "let"
+  },
+  {
+    "symbol": "grenadeThrowStartTime",
+    "file": "runtime/navigation_compat.js",
+    "line": 79,
+    "kind": "let"
+  },
+  {
+    "symbol": "grenadeThrowDuration",
+    "file": "runtime/navigation_compat.js",
+    "line": 79,
+    "kind": "let"
+  },
+  {
+    "symbol": "footFreeCamMoveAngle",
+    "file": "runtime/navigation_compat.js",
+    "line": 82,
+    "kind": "let"
+  },
+  {
+    "symbol": "atPort",
+    "file": "runtime/navigation_compat.js",
+    "line": 84,
+    "kind": "function"
+  },
+  {
+    "symbol": "boardingAction",
+    "file": "runtime/navigation_compat.js",
+    "line": 88,
+    "kind": "function"
+  },
+  {
+    "symbol": "hasDirectLineOfSight",
+    "file": "ship/autopilot.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "getSmartAutopilotWaypoint",
+    "file": "ship/autopilot.js",
+    "line": 37,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateCelestialOrbits",
+    "file": "world/orbits.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "spawnGasGiantLightning",
+    "file": "ship/gas_giant_dynamics.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "applyGasGiantFlightDynamics",
+    "file": "ship/gas_giant_dynamics.js",
+    "line": 31,
+    "kind": "function"
+  },
+  {
+    "symbol": "flyShip",
+    "file": "ship/flight.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "planets",
+    "file": "world/terrain_helpers.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "destinations",
+    "file": "world/terrain_helpers.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "npcs",
+    "file": "world/terrain_helpers.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "animals",
+    "file": "world/terrain_helpers.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "ores",
+    "file": "world/terrain_helpers.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "scenery",
+    "file": "world/terrain_helpers.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "biome",
+    "file": "world/terrain_helpers.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "height",
+    "file": "world/terrain_helpers.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "frameAt",
+    "file": "world/terrain_helpers.js",
+    "line": 5,
+    "kind": "function"
+  },
+  {
+    "symbol": "label3D",
+    "file": "world/terrain_helpers.js",
+    "line": 6,
+    "kind": "function"
+  },
+  {
+    "symbol": "bodyLoft",
+    "file": "world/terrain_helpers.js",
+    "line": 7,
+    "kind": "function"
+  },
+  {
+    "symbol": "person",
+    "file": "models/humans.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "animateHuman",
+    "file": "models/humans.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "mergeHumanParts",
+    "file": "models/humans.js",
+    "line": 544,
+    "kind": "function"
+  },
+  {
+    "symbol": "ATLAS_ASSET",
+    "file": "generated/atlas_asset.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "ATLAS",
+    "file": "ship/atlas.js",
+    "line": 2,
+    "kind": "const"
+  },
+  {
+    "symbol": "atlasRig",
+    "file": "ship/atlas.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "atlasFloats",
+    "file": "ship/atlas.js",
+    "line": 4,
+    "kind": "function"
+  },
+  {
+    "symbol": "atlasMaterials",
+    "file": "ship/atlas.js",
+    "line": 5,
+    "kind": "function"
+  },
+  {
+    "symbol": "atlasPoint",
+    "file": "ship/atlas.js",
+    "line": 6,
+    "kind": "function"
+  },
+  {
+    "symbol": "buildAtlas",
+    "file": "ship/atlas.js",
+    "line": 7,
+    "kind": "function"
+  },
+  {
+    "symbol": "bindAtlasCockpit",
+    "file": "ship/atlas.js",
+    "line": 55,
+    "kind": "function"
+  },
+  {
+    "symbol": "atlasSegment",
+    "file": "ship/atlas.js",
+    "line": 66,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateAtlasGate",
+    "file": "ship/atlas.js",
+    "line": 67,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateAtlasDoor",
+    "file": "ship/atlas.js",
+    "line": 81,
+    "kind": "function"
+  },
+  {
+    "symbol": "atlasRampSlope",
+    "file": "ship/atlas.js",
+    "line": 82,
+    "kind": "function"
+  },
+  {
+    "symbol": "atlasPlaceRover",
+    "file": "ship/atlas.js",
+    "line": 83,
+    "kind": "function"
+  },
+  {
+    "symbol": "atlasRoverMove",
+    "file": "ship/atlas.js",
+    "line": 84,
+    "kind": "function"
+  },
+  {
+    "symbol": "atlasSurfacePush",
+    "file": "ship/atlas.js",
+    "line": 94,
+    "kind": "function"
+  },
+  {
+    "symbol": "registerAtlasFurniture",
+    "file": "ship/atlas.js",
+    "line": 101,
+    "kind": "function"
+  },
+  {
+    "symbol": "stationCity",
+    "file": "world/stations.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "talk",
+    "file": "world/stations.js",
+    "line": 23,
+    "kind": "function"
+  },
+  {
+    "symbol": "createSinglePlanet",
+    "file": "world/streaming.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "loadPlanetSurface",
+    "file": "world/streaming.js",
+    "line": 62,
+    "kind": "function"
+  },
+  {
+    "symbol": "unloadPlanetSurface",
+    "file": "world/streaming.js",
+    "line": 139,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateSurfaceStreaming",
+    "file": "world/streaming.js",
+    "line": 157,
+    "kind": "function"
+  },
+  {
+    "symbol": "createSystemPlanets",
+    "file": "world/streaming.js",
+    "line": 173,
+    "kind": "function"
+  },
+  {
+    "symbol": "createSystemStation",
+    "file": "world/streaming.js",
+    "line": 180,
+    "kind": "function"
+  },
+  {
+    "symbol": "loadStationCity",
+    "file": "world/streaming.js",
+    "line": 191,
+    "kind": "function"
+  },
+  {
+    "symbol": "stars",
+    "file": "world/starfield.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "starArr",
+    "file": "world/starfield.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "sr",
+    "file": "world/starfield.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "starsObj",
+    "file": "world/starfield.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "shipTypes",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "ship",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 2,
+    "kind": "const"
+  },
+  {
+    "symbol": "shipType",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "rampOpen",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "layouts",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 3,
+    "kind": "const"
+  },
+  {
+    "symbol": "layout",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 4,
+    "kind": "function"
+  },
+  {
+    "symbol": "transitionUntil",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 6,
+    "kind": "let"
+  },
+  {
+    "symbol": "entryWorld",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 7,
+    "kind": "function"
+  },
+  {
+    "symbol": "toggleRamp",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 9,
+    "kind": "function"
+  },
+  {
+    "symbol": "boardShip",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 10,
+    "kind": "function"
+  },
+  {
+    "symbol": "exitShip",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 11,
+    "kind": "function"
+  },
+  {
+    "symbol": "inDoor",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 29,
+    "kind": "function"
+  },
+  {
+    "symbol": "insideMove",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 30,
+    "kind": "function"
+  },
+  {
+    "symbol": "nearbyHangarTerminal",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 32,
+    "kind": "function"
+  },
+  {
+    "symbol": "interact",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 50,
+    "kind": "function"
+  },
+  {
+    "symbol": "isRoverOnShipDeck",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 53,
+    "kind": "function"
+  },
+  {
+    "symbol": "dockRoverToShip",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 68,
+    "kind": "function"
+  },
+  {
+    "symbol": "latch",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 91,
+    "kind": "function"
+  },
+  {
+    "symbol": "recall",
+    "file": "ship/fleet_and_boarding.js",
+    "line": 92,
+    "kind": "function"
+  },
+  {
+    "symbol": "rover",
+    "file": "runtime/entities_and_save.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "mode",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "started",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "landed",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "inside",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "foot",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "player",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "groundPlanet",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "station",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "yaw",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "pitch",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "flightSpeed",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "auto",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "target",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "credits",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "cargo",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "mission",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "scanned",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "mined",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "totalTime",
+    "file": "runtime/entities_and_save.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "keys",
+    "file": "runtime/entities_and_save.js",
+    "line": 5,
+    "kind": "const"
+  },
+  {
+    "symbol": "statusMessage",
+    "file": "runtime/entities_and_save.js",
+    "line": 5,
+    "kind": "let"
+  },
+  {
+    "symbol": "messageUntil",
+    "file": "runtime/entities_and_save.js",
+    "line": 5,
+    "kind": "let"
+  },
+  {
+    "symbol": "toast",
+    "file": "runtime/entities_and_save.js",
+    "line": 6,
+    "kind": "function"
+  },
+  {
+    "symbol": "save",
+    "file": "runtime/entities_and_save.js",
+    "line": 7,
+    "kind": "function"
+  },
+  {
+    "symbol": "nearest",
+    "file": "runtime/entities_and_save.js",
+    "line": 8,
+    "kind": "function"
+  },
+  {
+    "symbol": "localPoint",
+    "file": "runtime/entities_and_save.js",
+    "line": 9,
+    "kind": "function"
+  },
+  {
+    "symbol": "shipPoint",
+    "file": "runtime/entities_and_save.js",
+    "line": 10,
+    "kind": "function"
+  },
+  {
+    "symbol": "menu",
+    "file": "ui/menu_and_keyboard.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "closeMenu",
+    "file": "ui/menu_and_keyboard.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "scan",
+    "file": "ui/menu_and_keyboard.js",
+    "line": 8,
+    "kind": "function"
+  },
+  {
+    "symbol": "eva",
+    "file": "ui/menu_and_keyboard.js",
+    "line": 52,
+    "kind": "let"
+  },
+  {
+    "symbol": "evaFrame",
+    "file": "ui/menu_and_keyboard.js",
+    "line": 52,
+    "kind": "let"
+  },
+  {
+    "symbol": "evaVelocity",
+    "file": "ui/menu_and_keyboard.js",
+    "line": 52,
+    "kind": "let"
+  },
+  {
+    "symbol": "shipVelocity",
+    "file": "ui/menu_and_keyboard.js",
+    "line": 52,
+    "kind": "let"
+  },
+  {
+    "symbol": "roverAir",
+    "file": "ui/menu_and_keyboard.js",
+    "line": 52,
+    "kind": "let"
+  },
+  {
+    "symbol": "roverVelocity",
+    "file": "ui/menu_and_keyboard.js",
+    "line": 52,
+    "kind": "let"
+  },
+  {
+    "symbol": "guideEnabled",
+    "file": "ui/menu_and_keyboard.js",
+    "line": 52,
+    "kind": "let"
+  },
+  {
+    "symbol": "update",
+    "file": "runtime/update.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "jobDefs",
+    "file": "data/jobs.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "repairSites",
+    "file": "missions/jobs.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "rescueSites",
+    "file": "missions/jobs.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "salvageSites",
+    "file": "missions/jobs.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "initJobs",
+    "file": "missions/jobs.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "clearMissionCargo",
+    "file": "missions/jobs.js",
+    "line": 36,
+    "kind": "function"
+  },
+  {
+    "symbol": "acceptJob",
+    "file": "missions/jobs.js",
+    "line": 37,
+    "kind": "function"
+  },
+  {
+    "symbol": "missionAction",
+    "file": "missions/jobs.js",
+    "line": 38,
+    "kind": "function"
+  },
+  {
+    "symbol": "completeJob",
+    "file": "missions/jobs.js",
+    "line": 42,
+    "kind": "function"
+  },
+  {
+    "symbol": "resetJobObjects",
+    "file": "missions/jobs.js",
+    "line": 43,
+    "kind": "function"
+  },
+  {
+    "symbol": "cancelJob",
+    "file": "missions/jobs.js",
+    "line": 44,
+    "kind": "function"
+  },
+  {
+    "symbol": "currentGoal",
+    "file": "missions/jobs.js",
+    "line": 45,
+    "kind": "function"
+  },
+  {
+    "symbol": "toggleGuide",
+    "file": "missions/guide.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateGuide",
+    "file": "missions/guide.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "audioContext",
+    "file": "web/audio.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "musicBus",
+    "file": "web/audio.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "fxBus",
+    "file": "web/audio.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "masterBus",
+    "file": "web/audio.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "engineGain",
+    "file": "web/audio.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "engineOsc",
+    "file": "web/audio.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "engineFilter",
+    "file": "web/audio.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "windGain",
+    "file": "web/audio.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "audioMuted",
+    "file": "web/audio.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "nextChord",
+    "file": "web/audio.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "nextMelody",
+    "file": "web/audio.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "musicStep",
+    "file": "web/audio.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "footTimer",
+    "file": "web/audio.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "musicVolume",
+    "file": "web/audio.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "fxVolume",
+    "file": "web/audio.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "tone",
+    "file": "web/audio.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "initAudio",
+    "file": "web/audio.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "toggleAudio",
+    "file": "web/audio.js",
+    "line": 6,
+    "kind": "function"
+  },
+  {
+    "symbol": "setVolume",
+    "file": "web/audio.js",
+    "line": 7,
+    "kind": "function"
+  },
+  {
+    "symbol": "soundCue",
+    "file": "web/audio.js",
+    "line": 8,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateAudio",
+    "file": "web/audio.js",
+    "line": 9,
+    "kind": "function"
+  },
+  {
+    "symbol": "ellipsoid",
+    "file": "models/animals_and_fighters.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "bone",
+    "file": "models/animals_and_fighters.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "sculptAnimal",
+    "file": "models/animals_and_fighters.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "fighterModel",
+    "file": "models/animals_and_fighters.js",
+    "line": 4,
+    "kind": "function"
+  },
+  {
+    "symbol": "getMuzzleOffset",
+    "file": "combat/weapon_view.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "makeWeapon",
+    "file": "combat/weapon_view.js",
+    "line": 31,
+    "kind": "function"
+  },
+  {
+    "symbol": "avatarWeapon",
+    "file": "combat/weapon_view.js",
+    "line": 181,
+    "kind": "let"
+  },
+  {
+    "symbol": "updateAvatarWeapon",
+    "file": "combat/weapon_view.js",
+    "line": 183,
+    "kind": "function"
+  },
+  {
+    "symbol": "rebuildWeapon",
+    "file": "combat/weapon_view.js",
+    "line": 209,
+    "kind": "function"
+  },
+  {
+    "symbol": "animateEntities",
+    "file": "models/animation.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "buildStore",
+    "file": "economy/shops.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "openShop",
+    "file": "economy/shops.js",
+    "line": 5,
+    "kind": "function"
+  },
+  {
+    "symbol": "buyProduct",
+    "file": "economy/shops.js",
+    "line": 6,
+    "kind": "function"
+  },
+  {
+    "symbol": "equipWeaponBase",
+    "file": "economy/shops.js",
+    "line": 7,
+    "kind": "function"
+  },
+  {
+    "symbol": "getGrenadeOriginAndVelocity",
+    "file": "combat/grenade_launch.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "scannerBeamFX",
+    "file": "combat/scanner_effect.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "lastMapClickTime",
+    "file": "ui/system_map.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastMapClickIndex",
+    "file": "ui/system_map.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastPlanetClickTime",
+    "file": "ui/system_map.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastPlanetClickIndex",
+    "file": "ui/system_map.js",
+    "line": 4,
+    "kind": "let"
+  },
+  {
+    "symbol": "handleMapPlanetClick",
+    "file": "ui/system_map.js",
+    "line": 6,
+    "kind": "function"
+  },
+  {
+    "symbol": "showMapPlanetTooltip",
+    "file": "ui/system_map.js",
+    "line": 30,
+    "kind": "function"
+  },
+  {
+    "symbol": "handleMapNodeClick",
+    "file": "ui/system_map.js",
+    "line": 43,
+    "kind": "function"
+  },
+  {
+    "symbol": "showMapTooltip",
+    "file": "ui/system_map.js",
+    "line": 77,
+    "kind": "function"
+  },
+  {
+    "symbol": "hideMapTooltip",
+    "file": "ui/system_map.js",
+    "line": 94,
+    "kind": "function"
+  },
+  {
+    "symbol": "mapPan",
+    "file": "ui/system_map.js",
+    "line": 100,
+    "kind": "let"
+  },
+  {
+    "symbol": "mapZoom",
+    "file": "ui/system_map.js",
+    "line": 101,
+    "kind": "let"
+  },
+  {
+    "symbol": "mapDragging",
+    "file": "ui/system_map.js",
+    "line": 102,
+    "kind": "let"
+  },
+  {
+    "symbol": "mapDragStart",
+    "file": "ui/system_map.js",
+    "line": 103,
+    "kind": "let"
+  },
+  {
+    "symbol": "mapPinchDist",
+    "file": "ui/system_map.js",
+    "line": 104,
+    "kind": "let"
+  },
+  {
+    "symbol": "initMapInteractions",
+    "file": "ui/system_map.js",
+    "line": 106,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateMapTransform",
+    "file": "ui/system_map.js",
+    "line": 119,
+    "kind": "function"
+  },
+  {
+    "symbol": "render2DSystemMap",
+    "file": "ui/system_map.js",
+    "line": 126,
+    "kind": "function"
+  },
+  {
+    "symbol": "useMedkit",
+    "file": "combat/actors_and_damage.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "selectVehicle",
+    "file": "combat/actors_and_damage.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "fleetSelect",
+    "file": "combat/actors_and_damage.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "shipMaxHull",
+    "file": "combat/actors_and_damage.js",
+    "line": 5,
+    "kind": "function"
+  },
+  {
+    "symbol": "spawnEnemy",
+    "file": "combat/actors_and_damage.js",
+    "line": 6,
+    "kind": "function"
+  },
+  {
+    "symbol": "initEnemies",
+    "file": "combat/actors_and_damage.js",
+    "line": 7,
+    "kind": "function"
+  },
+  {
+    "symbol": "enemyCenter",
+    "file": "combat/actors_and_damage.js",
+    "line": 8,
+    "kind": "function"
+  },
+  {
+    "symbol": "enemyName",
+    "file": "combat/actors_and_damage.js",
+    "line": 9,
+    "kind": "function"
+  },
+  {
+    "symbol": "obstacleDistance",
+    "file": "combat/actors_and_damage.js",
+    "line": 10,
+    "kind": "function"
+  },
+  {
+    "symbol": "segmentHit",
+    "file": "combat/actors_and_damage.js",
+    "line": 11,
+    "kind": "function"
+  },
+  {
+    "symbol": "particleBurst",
+    "file": "combat/actors_and_damage.js",
+    "line": 12,
+    "kind": "function"
+  },
+  {
+    "symbol": "transientFX",
+    "file": "combat/actors_and_damage.js",
+    "line": 13,
+    "kind": "const"
+  },
+  {
+    "symbol": "traceFX",
+    "file": "combat/actors_and_damage.js",
+    "line": 14,
+    "kind": "function"
+  },
+  {
+    "symbol": "blastFX",
+    "file": "combat/actors_and_damage.js",
+    "line": 78,
+    "kind": "function"
+  },
+  {
+    "symbol": "damageEnemy",
+    "file": "combat/actors_and_damage.js",
+    "line": 79,
+    "kind": "function"
+  },
+  {
+    "symbol": "playerTarget",
+    "file": "combat/actors_and_damage.js",
+    "line": 80,
+    "kind": "function"
+  },
+  {
+    "symbol": "hurtPlayer",
+    "file": "combat/actors_and_damage.js",
+    "line": 81,
+    "kind": "function"
+  },
+  {
+    "symbol": "emergencyRespawn",
+    "file": "combat/actors_and_damage.js",
+    "line": 82,
+    "kind": "function"
+  },
+  {
+    "symbol": "playWeaponSound",
+    "file": "web/weapon_audio.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "reloadActive",
+    "file": "combat/weapons.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "reloadDuration",
+    "file": "combat/weapons.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "reloadStartTime",
+    "file": "combat/weapons.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "meleeActive",
+    "file": "combat/weapons.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "meleeDuration",
+    "file": "combat/weapons.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "meleeStartTime",
+    "file": "combat/weapons.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "meleeCombo",
+    "file": "combat/weapons.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "reloadWeapon",
+    "file": "combat/weapons.js",
+    "line": 4,
+    "kind": "function"
+  },
+  {
+    "symbol": "firePlayer",
+    "file": "combat/weapons.js",
+    "line": 20,
+    "kind": "function"
+  },
+  {
+    "symbol": "enemyFire",
+    "file": "combat/projectiles.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "explodeGrenade",
+    "file": "combat/projectiles.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "grenadeTrajectoryLine",
+    "file": "combat/projectiles.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "updateGrenadeTrajectory",
+    "file": "combat/projectiles.js",
+    "line": 5,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateProjectiles",
+    "file": "combat/projectiles.js",
+    "line": 60,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateEnemy",
+    "file": "combat/enemies_and_missions.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "randomAmbush",
+    "file": "combat/enemies_and_missions.js",
+    "line": 4,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateCombat",
+    "file": "combat/enemies_and_missions.js",
+    "line": 5,
+    "kind": "function"
+  },
+  {
+    "symbol": "initCombatJobs",
+    "file": "combat/enemies_and_missions.js",
+    "line": 6,
+    "kind": "function"
+  },
+  {
+    "symbol": "acceptCombat",
+    "file": "combat/enemies_and_missions.js",
+    "line": 7,
+    "kind": "function"
+  },
+  {
+    "symbol": "completeCombat",
+    "file": "combat/enemies_and_missions.js",
+    "line": 8,
+    "kind": "function"
+  },
+  {
+    "symbol": "clearCombatMission",
+    "file": "combat/enemies_and_missions.js",
+    "line": 9,
+    "kind": "function"
+  },
+  {
+    "symbol": "combatGoal",
+    "file": "combat/enemies_and_missions.js",
+    "line": 10,
+    "kind": "function"
+  },
+  {
+    "symbol": "setTouch",
+    "file": "ui/combat_panels.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "showActions",
+    "file": "ui/combat_panels.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "renderPanelV04",
+    "file": "ui/combat_panels.js",
+    "line": 4,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateCombatHud",
+    "file": "ui/combat_panels.js",
+    "line": 20,
+    "kind": "function"
+  },
+  {
+    "symbol": "particleCloud",
+    "file": "runtime/combat_boot.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "initEffects",
+    "file": "runtime/combat_boot.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateEffects",
+    "file": "runtime/combat_boot.js",
+    "line": 4,
+    "kind": "function"
+  },
+  {
+    "symbol": "loadEquipment",
+    "file": "runtime/combat_boot.js",
+    "line": 5,
+    "kind": "function"
+  },
+  {
+    "symbol": "bootV04",
+    "file": "runtime/combat_boot.js",
+    "line": 6,
+    "kind": "function"
+  },
+  {
+    "symbol": "v04Tick",
+    "file": "runtime/combat_boot.js",
+    "line": 7,
+    "kind": "function"
+  },
+  {
+    "symbol": "itemDescriptions",
+    "file": "data/item_descriptions.js",
+    "line": 1,
+    "kind": "const"
+  },
+  {
+    "symbol": "itemLoreHoldTimer",
+    "file": "ui/item_lore.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "showItemLore",
+    "file": "ui/item_lore.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "hideItemLore",
+    "file": "ui/item_lore.js",
+    "line": 18,
+    "kind": "function"
+  },
+  {
+    "symbol": "startItemLoreHold",
+    "file": "ui/item_lore.js",
+    "line": 24,
+    "kind": "function"
+  },
+  {
+    "symbol": "endItemLoreHold",
+    "file": "ui/item_lore.js",
+    "line": 31,
+    "kind": "function"
+  },
+  {
+    "symbol": "handleMapShipClick",
+    "file": "ui/map_ship_tooltip.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "showMapShipTooltip",
+    "file": "ui/map_ship_tooltip.js",
+    "line": 13,
+    "kind": "function"
+  },
+  {
+    "symbol": "currentPlanetMapP",
+    "file": "ui/planet_map.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "planetGlobeRotX",
+    "file": "ui/planet_map.js",
+    "line": 2,
+    "kind": "let"
+  },
+  {
+    "symbol": "planetGlobeRotY",
+    "file": "ui/planet_map.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "renderedGlobePins",
+    "file": "ui/planet_map.js",
+    "line": 4,
+    "kind": "let"
+  },
+  {
+    "symbol": "hoveredGlobePin",
+    "file": "ui/planet_map.js",
+    "line": 5,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastPinClickTime",
+    "file": "ui/planet_map.js",
+    "line": 6,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastPinClickIndex",
+    "file": "ui/planet_map.js",
+    "line": 7,
+    "kind": "let"
+  },
+  {
+    "symbol": "openPlanetMapView",
+    "file": "ui/planet_map.js",
+    "line": 9,
+    "kind": "function"
+  },
+  {
+    "symbol": "initPlanetGlobe",
+    "file": "ui/planet_map.js",
+    "line": 68,
+    "kind": "function"
+  },
+  {
+    "symbol": "makePlanetGeometry",
+    "file": "world/planet_lod.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "createPlanetLOD",
+    "file": "world/planet_lod.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateLOD",
+    "file": "world/planet_lod.js",
+    "line": 14,
+    "kind": "function"
+  },
+  {
+    "symbol": "buildSpatialIndex",
+    "file": "physics/spatial_index.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "queryStatic",
+    "file": "physics/spatial_index.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "nearbyBodies",
+    "file": "physics/spatial_index.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "batchArchitecture",
+    "file": "world/settlements.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "settlementPoint",
+    "file": "world/settlements.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "settlementLocal",
+    "file": "world/settlements.js",
+    "line": 4,
+    "kind": "function"
+  },
+  {
+    "symbol": "curvedPatch",
+    "file": "world/settlements.js",
+    "line": 5,
+    "kind": "function"
+  },
+  {
+    "symbol": "surfaceGroup",
+    "file": "world/settlements.js",
+    "line": 6,
+    "kind": "function"
+  },
+  {
+    "symbol": "residentialBlock",
+    "file": "world/settlements.js",
+    "line": 7,
+    "kind": "function"
+  },
+  {
+    "symbol": "townPath",
+    "file": "world/settlements.js",
+    "line": 30,
+    "kind": "function"
+  },
+  {
+    "symbol": "townRoad",
+    "file": "world/settlements.js",
+    "line": 31,
+    "kind": "function"
+  },
+  {
+    "symbol": "createSettlement",
+    "file": "world/settlements.js",
+    "line": 32,
+    "kind": "function"
+  },
+  {
+    "symbol": "decoratePlanet",
+    "file": "world/settlements.js",
+    "line": 70,
+    "kind": "function"
+  },
+  {
+    "symbol": "finishSettlements",
+    "file": "world/settlements.js",
+    "line": 100,
+    "kind": "function"
+  },
+  {
+    "symbol": "redecorateShop",
+    "file": "world/settlements.js",
+    "line": 117,
+    "kind": "function"
+  },
+  {
+    "symbol": "spawnTraffic",
+    "file": "world/settlements.js",
+    "line": 118,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateTraffic",
+    "file": "world/settlements.js",
+    "line": 119,
+    "kind": "function"
+  },
+  {
+    "symbol": "floorProbe",
+    "file": "physics/floor_probe.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "resetFootMotion",
+    "file": "physics/floor_probe.js",
+    "line": 31,
+    "kind": "function"
+  },
+  {
+    "symbol": "smoothCamUp",
+    "file": "player/movement.js",
+    "line": 1,
+    "kind": "let"
+  },
+  {
+    "symbol": "updateFootV05",
+    "file": "player/movement.js",
+    "line": 4,
+    "kind": "function"
+  },
+  {
+    "symbol": "toggleCamera",
+    "file": "player/avatar.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "armorPlate",
+    "file": "player/avatar.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "makeAvatar",
+    "file": "player/avatar.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "updatePlayerCamera",
+    "file": "camera/player_camera.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "equipOutfit",
+    "file": "player/equipment.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "buyV05",
+    "file": "player/equipment.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "initPlayerV05",
+    "file": "player/equipment.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "aimDirection",
+    "file": "player/equipment.js",
+    "line": 5,
+    "kind": "function"
+  },
+  {
+    "symbol": "panelMesh",
+    "file": "models/landing_gear.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "sweptWing",
+    "file": "models/landing_gear.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "createLandingGear",
+    "file": "models/landing_gear.js",
+    "line": 6,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateLandingGears",
+    "file": "models/landing_gear.js",
+    "line": 64,
+    "kind": "function"
+  },
+  {
+    "symbol": "aeroHull",
+    "file": "models/ship_interiors.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "hullWindow",
+    "file": "models/ship_interiors.js",
+    "line": 22,
+    "kind": "function"
+  },
+  {
+    "symbol": "cabinBox",
+    "file": "models/ship_interiors.js",
+    "line": 24,
+    "kind": "function"
+  },
+  {
+    "symbol": "roomDeck",
+    "file": "models/ship_interiors.js",
+    "line": 25,
+    "kind": "function"
+  },
+  {
+    "symbol": "passage",
+    "file": "models/ship_interiors.js",
+    "line": 26,
+    "kind": "function"
+  },
+  {
+    "symbol": "consoleDesk",
+    "file": "models/ship_interiors.js",
+    "line": 27,
+    "kind": "function"
+  },
+  {
+    "symbol": "storageRack",
+    "file": "models/ship_interiors.js",
+    "line": 28,
+    "kind": "function"
+  },
+  {
+    "symbol": "galley",
+    "file": "models/ship_interiors.js",
+    "line": 29,
+    "kind": "function"
+  },
+  {
+    "symbol": "makeShipRooms",
+    "file": "models/ship_interiors.js",
+    "line": 30,
+    "kind": "function"
+  },
+  {
+    "symbol": "makeCockpitButtonTexture",
+    "file": "web/cockpit_textures.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "makeMfdTelemetryTexture",
+    "file": "web/cockpit_textures.js",
+    "line": 23,
+    "kind": "function"
+  },
+  {
+    "symbol": "updatePhysicalCargoHold",
+    "file": "ship/cargo_and_lights.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "mountShipHeadlights",
+    "file": "ship/cargo_and_lights.js",
+    "line": 8,
+    "kind": "function"
+  },
+  {
+    "symbol": "buildCockpit3DConsole",
+    "file": "ui/cockpit.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "executeCockpitAction",
+    "file": "ui/cockpit.js",
+    "line": 82,
+    "kind": "function"
+  },
+  {
+    "symbol": "findCockpitButtonAt",
+    "file": "ui/cockpit.js",
+    "line": 109,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateCockpitRaycast",
+    "file": "ui/cockpit.js",
+    "line": 134,
+    "kind": "function"
+  },
+  {
+    "symbol": "cabinLights",
+    "file": "ship/interactions.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "gateSwitches",
+    "file": "ship/interactions.js",
+    "line": 36,
+    "kind": "function"
+  },
+  {
+    "symbol": "switchCandidate",
+    "file": "ship/interactions.js",
+    "line": 37,
+    "kind": "function"
+  },
+  {
+    "symbol": "doorwayOccupied",
+    "file": "ship/interactions.js",
+    "line": 69,
+    "kind": "function"
+  },
+  {
+    "symbol": "useShipInterior",
+    "file": "ship/interactions.js",
+    "line": 70,
+    "kind": "function"
+  },
+  {
+    "symbol": "openRamp",
+    "file": "ship/interactions.js",
+    "line": 117,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateGateGeometry",
+    "file": "ship/interactions.js",
+    "line": 118,
+    "kind": "function"
+  },
+  {
+    "symbol": "tickInteriors",
+    "file": "ship/interactions.js",
+    "line": 119,
+    "kind": "function"
+  },
+  {
+    "symbol": "buildShip",
+    "file": "ship/build_and_furniture.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "makeSeat",
+    "file": "ship/build_and_furniture.js",
+    "line": 5,
+    "kind": "function"
+  },
+  {
+    "symbol": "bulkhead",
+    "file": "ship/build_and_furniture.js",
+    "line": 6,
+    "kind": "function"
+  },
+  {
+    "symbol": "addFurniture",
+    "file": "ship/build_and_furniture.js",
+    "line": 8,
+    "kind": "function"
+  },
+  {
+    "symbol": "standUp",
+    "file": "ship/build_and_furniture.js",
+    "line": 10,
+    "kind": "function"
+  },
+  {
+    "symbol": "transferItem",
+    "file": "ship/build_and_furniture.js",
+    "line": 11,
+    "kind": "function"
+  },
+  {
+    "symbol": "enhanceShip",
+    "file": "ship/build_and_furniture.js",
+    "line": 12,
+    "kind": "function"
+  },
+  {
+    "symbol": "remodelRover",
+    "file": "models/rover.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "city",
+    "file": "world/terrain_and_citizens.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "settlementNormals",
+    "file": "world/terrain_and_citizens.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "radius",
+    "file": "world/terrain_and_citizens.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "walkFrame",
+    "file": "world/terrain_and_citizens.js",
+    "line": 13,
+    "kind": "function"
+  },
+  {
+    "symbol": "placeOnGround",
+    "file": "world/terrain_and_citizens.js",
+    "line": 14,
+    "kind": "function"
+  },
+  {
+    "symbol": "safeZone",
+    "file": "world/terrain_and_citizens.js",
+    "line": 15,
+    "kind": "function"
+  },
+  {
+    "symbol": "registerBodies",
+    "file": "world/terrain_and_citizens.js",
+    "line": 17,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateCitizens",
+    "file": "world/terrain_and_citizens.js",
+    "line": 19,
+    "kind": "function"
+  },
+  {
+    "symbol": "planetApproach",
+    "file": "world/terrain_and_citizens.js",
+    "line": 20,
+    "kind": "function"
+  },
+  {
+    "symbol": "renderPanel",
+    "file": "ui/world_panels.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "v05Tick",
+    "file": "runtime/player_boot.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "bootV05",
+    "file": "runtime/player_boot.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "thinPanelPush",
+    "file": "runtime/player_boot.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "hostilePosition",
+    "file": "runtime/player_boot.js",
+    "line": 5,
+    "kind": "function"
+  },
+  {
+    "symbol": "clearInput",
+    "file": "input/gestures.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "gestureContext",
+    "file": "input/gestures.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "lastRoverModeToggleTime",
+    "file": "input/gestures.js",
+    "line": 3,
+    "kind": "let"
+  },
+  {
+    "symbol": "toggleRoverLookMode",
+    "file": "input/gestures.js",
+    "line": 4,
+    "kind": "function"
+  },
+  {
+    "symbol": "lastShipModeToggleTime",
+    "file": "input/gestures.js",
+    "line": 22,
+    "kind": "let"
+  },
+  {
+    "symbol": "toggleShipLookMode",
+    "file": "input/gestures.js",
+    "line": 23,
+    "kind": "function"
+  },
+  {
+    "symbol": "lastRoverAutoDriveTime",
+    "file": "input/gestures.js",
+    "line": 46,
+    "kind": "let"
+  },
+  {
+    "symbol": "triggerRoverAutoDrive",
+    "file": "input/gestures.js",
+    "line": 47,
+    "kind": "function"
+  },
+  {
+    "symbol": "lastRightTapTime",
+    "file": "input/gestures.js",
+    "line": 57,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastRightTapX",
+    "file": "input/gestures.js",
+    "line": 57,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastRightTapY",
+    "file": "input/gestures.js",
+    "line": 57,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastLeftTapTime",
+    "file": "input/gestures.js",
+    "line": 58,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastLeftTapX",
+    "file": "input/gestures.js",
+    "line": 58,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastLeftTapY",
+    "file": "input/gestures.js",
+    "line": 58,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastRightMouseClickTime",
+    "file": "input/gestures.js",
+    "line": 59,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastRightMouseClickX",
+    "file": "input/gestures.js",
+    "line": 59,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastRightMouseClickY",
+    "file": "input/gestures.js",
+    "line": 59,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastLeftMouseClickTime",
+    "file": "input/gestures.js",
+    "line": 60,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastLeftMouseClickX",
+    "file": "input/gestures.js",
+    "line": 60,
+    "kind": "let"
+  },
+  {
+    "symbol": "lastLeftMouseClickY",
+    "file": "input/gestures.js",
+    "line": 60,
+    "kind": "let"
+  },
+  {
+    "symbol": "touchDown",
+    "file": "input/gestures.js",
+    "line": 62,
+    "kind": "function"
+  },
+  {
+    "symbol": "startSecondHold",
+    "file": "input/gestures.js",
+    "line": 150,
+    "kind": "function"
+  },
+  {
+    "symbol": "touchMove",
+    "file": "input/gestures.js",
+    "line": 151,
+    "kind": "function"
+  },
+  {
+    "symbol": "touchEnd",
+    "file": "input/gestures.js",
+    "line": 169,
+    "kind": "function"
+  },
+  {
+    "symbol": "advanceTouch",
+    "file": "input/gestures.js",
+    "line": 290,
+    "kind": "function"
+  },
+  {
+    "symbol": "applySoftResistance",
+    "file": "input/look.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "lookInput",
+    "file": "input/look.js",
+    "line": 20,
+    "kind": "function"
+  },
+  {
+    "symbol": "lastMiddleToggle",
+    "file": "input/look.js",
+    "line": 138,
+    "kind": "let"
+  },
+  {
+    "symbol": "toggleCockpitCameraLook",
+    "file": "input/look.js",
+    "line": 139,
+    "kind": "function"
+  },
+  {
+    "symbol": "bindTouch",
+    "file": "input/bindings.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "inputTick",
+    "file": "input/bindings.js",
+    "line": 91,
+    "kind": "function"
+  },
+  {
+    "symbol": "inputAfterTick",
+    "file": "input/bindings.js",
+    "line": 92,
+    "kind": "function"
+  },
+  {
+    "symbol": "manualFlight",
+    "file": "ship/manual_flight.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "brakeShip",
+    "file": "ship/manual_flight.js",
+    "line": 134,
+    "kind": "function"
+  },
+  {
+    "symbol": "equipWeapon",
+    "file": "ui/equipment_actions.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "cycleWeapon",
+    "file": "ui/equipment_actions.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "hideWeaponInfo",
+    "file": "ui/equipment_actions.js",
+    "line": 13,
+    "kind": "function"
+  },
+  {
+    "symbol": "showWeaponInfo",
+    "file": "ui/equipment_actions.js",
+    "line": 14,
+    "kind": "function"
+  },
+  {
+    "symbol": "showWeaponPicker",
+    "file": "ui/equipment_actions.js",
+    "line": 15,
+    "kind": "function"
+  },
+  {
+    "symbol": "endEquipmentItem",
+    "file": "ui/equipment_actions.js",
+    "line": 16,
+    "kind": "function"
+  },
+  {
+    "symbol": "closeWeaponPicker",
+    "file": "ui/equipment_actions.js",
+    "line": 17,
+    "kind": "function"
+  },
+  {
+    "symbol": "bindWeaponButton",
+    "file": "ui/equipment_actions.js",
+    "line": 18,
+    "kind": "function"
+  },
+  {
+    "symbol": "contextualActions",
+    "file": "ui/equipment_actions.js",
+    "line": 23,
+    "kind": "function"
+  },
+  {
+    "symbol": "refreshActionStrip",
+    "file": "ui/equipment_actions.js",
+    "line": 24,
+    "kind": "function"
+  },
+  {
+    "symbol": "toggleActionStrip",
+    "file": "ui/equipment_actions.js",
+    "line": 25,
+    "kind": "function"
+  },
+  {
+    "symbol": "runContextAction",
+    "file": "ui/equipment_actions.js",
+    "line": 26,
+    "kind": "function"
+  },
+  {
+    "symbol": "bootV06",
+    "file": "ui/equipment_actions.js",
+    "line": 27,
+    "kind": "function"
+  },
+  {
+    "symbol": "wetPlanet",
+    "file": "world/water.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "seaRadius",
+    "file": "world/water.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "waterCarve",
+    "file": "world/water.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "isWater",
+    "file": "world/water.js",
+    "line": 15,
+    "kind": "function"
+  },
+  {
+    "symbol": "waterPoint",
+    "file": "world/water.js",
+    "line": 23,
+    "kind": "function"
+  },
+  {
+    "symbol": "aquaticDriveSpeed",
+    "file": "world/water.js",
+    "line": 24,
+    "kind": "function"
+  },
+  {
+    "symbol": "boatModel",
+    "file": "world/environment.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "fishModel",
+    "file": "world/environment.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "bootEnvironment",
+    "file": "world/environment.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "daylight",
+    "file": "world/environment.js",
+    "line": 13,
+    "kind": "function"
+  },
+  {
+    "symbol": "environmentSky",
+    "file": "world/environment.js",
+    "line": 14,
+    "kind": "function"
+  },
+  {
+    "symbol": "startDisaster",
+    "file": "world/environment.js",
+    "line": 138,
+    "kind": "function"
+  },
+  {
+    "symbol": "disasterTick",
+    "file": "world/environment.js",
+    "line": 139,
+    "kind": "function"
+  },
+  {
+    "symbol": "waterMovement",
+    "file": "world/environment.js",
+    "line": 143,
+    "kind": "function"
+  },
+  {
+    "symbol": "environmentTick",
+    "file": "world/environment.js",
+    "line": 144,
+    "kind": "function"
+  },
+  {
+    "symbol": "bakeMeshes",
+    "file": "web/batching_and_collision_cache.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "optimizeCities",
+    "file": "web/batching_and_collision_cache.js",
+    "line": 2,
+    "kind": "function"
+  },
+  {
+    "symbol": "updateCityBatches",
+    "file": "web/batching_and_collision_cache.js",
+    "line": 3,
+    "kind": "function"
+  },
+  {
+    "symbol": "cachedBody",
+    "file": "web/batching_and_collision_cache.js",
+    "line": 4,
+    "kind": "function"
+  },
+  {
+    "symbol": "refreshMovingBodies",
+    "file": "web/batching_and_collision_cache.js",
+    "line": 5,
+    "kind": "function"
+  },
+  {
+    "symbol": "optimizeShipDraws",
+    "file": "web/batching_and_collision_cache.js",
+    "line": 6,
+    "kind": "function"
+  },
+  {
+    "symbol": "actorProxy",
+    "file": "web/batching_and_collision_cache.js",
+    "line": 7,
+    "kind": "function"
+  },
+  {
+    "symbol": "unloadCurrentSystem",
+    "file": "runtime/system_loading.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "loadSystemInSpace",
+    "file": "runtime/system_loading.js",
+    "line": 42,
+    "kind": "function"
+  },
+  {
+    "symbol": "loadSystem",
+    "file": "runtime/system_loading.js",
+    "line": 64,
+    "kind": "function"
+  },
+  {
+    "symbol": "animate",
+    "file": "runtime/startup.js",
+    "line": 1,
+    "kind": "function"
+  },
+  {
+    "symbol": "gameLoadingStarted",
+    "file": "runtime/startup.js",
+    "line": 5,
+    "kind": "let"
+  },
+  {
+    "symbol": "startLoadingGame",
+    "file": "runtime/startup.js",
+    "line": 7,
+    "kind": "function"
+  },
+  {
+    "symbol": "terminalSelectShip",
+    "file": "web/public_api.js",
+    "line": 6,
+    "kind": "function"
+  },
+  {
+    "symbol": "terminalSelectVehicle",
+    "file": "web/public_api.js",
+    "line": 13,
+    "kind": "function"
+  },
+  {
+    "symbol": "toggleFootFreeCam",
+    "file": "web/public_api.js",
+    "line": 20,
+    "kind": "function"
+  }
+]

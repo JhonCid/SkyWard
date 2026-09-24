@@ -1,0 +1,1 @@
+PASS: two consecutive conversions produce identical characters.js SHA256 5620f2c90081d1c97304d2e24b0f34c8a82c15378224fbb49c89349df70d1584

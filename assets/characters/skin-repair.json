@@ -1,0 +1,7 @@
+{
+  "reason": "4970 of 4971 vertices were assigned entirely to pelvis; hands had zero skin weights",
+  "reference": "Tripo-Explorer-original.glb",
+  "method": "anatomically registered reference surface; closest-triangle barycentric skin transfer",
+  "maxSurfaceDistance": 0.03653353359290238,
+  "medianSurfaceDistance": 0.0063352765575077465
+}

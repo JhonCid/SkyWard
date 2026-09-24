@@ -1,0 +1,36 @@
+SkyWard v0.3.2: 10232543 bytes. Both HTML files generated.
+PASS pure rules: 1,681 systems with reciprocal gates, deterministic planets and seeded random.
+Scripts "build/three.js" and "build/three.min.js" are deprecated with r150+, and will be removed with r160. Please use ES Modules or alternatives: https://threejs.org/docs/index.html#manual/en/introduction/Installation
+PASS characters: 510 body/clip combinations, shared meshes/clips, independent rigs, valid weights and all triangle budgets.
+Scripts "build/three.js" and "build/three.min.js" are deprecated with r150+, and will be removed with r160. Please use ES Modules or alternatives: https://threejs.org/docs/index.html#manual/en/introduction/Installation
+PASS Tripo player: original-only model, 9849 triangles, proper frame determinants, 60 visible glove/palm checks, no textures or double-sided masking.
+Scripts "build/three.js" and "build/three.min.js" are deprecated with r150+, and will be removed with r160. Please use ES Modules or alternatives: https://threejs.org/docs/index.html#manual/en/introduction/Installation
+PASS character regressions: 23730 consistent triangle normals, 24s stable continuous aim, arm pitch, jetpack/aim layering, backward gait, ground grace, seat height, instant exit and repeated moving throws.
+Scripts "build/three.js" and "build/three.min.js" are deprecated with r150+, and will be removed with r160. Please use ES Modules or alternatives: https://threejs.org/docs/index.html#manual/en/introduction/Installation
+PASS Atlas default and named authored parts
+PASS Cockpit original surfaces expose all five commands
+PASS Full ramp cycle: telescopes shrink, retain anchors, carry rover
+PASS Six doors open, remove collision, close and restore authored coordinates
+corridor contact [ 0, 2.17, 3.5999999999999996 ]
+PASS Collider follows triangles rather than the hollow hull bounding box
+support 10.8 [ 0, 2.1700000131130217, 10.8 ]
+support 12 [ 0, 1.8808434096000763, 12 ]
+support 16 [ 0, 0.7242169955482967, 16 ]
+support 20 [ 0, -0.432409418503483, 20 ]
+support 24 [ 0, -1.5890358325552636, 24 ]
+support 27 [ 0, -2.456505643094099, 27 ]
+PASS Deck and full ramp provide continuous foot support
+PASS Cargo opening gives rover clear overhead space throughout ramp cycle
+PASS Rover exits at actual ramp tip and remains blocked when ramp closed
+PASS Three imported landing gears retract and deploy
+door clearance Porta · Cockpit start [ 0, 2.615, -23.85000057220459 ] result [ 4.4404584535318054e-18, 2.75864864507238, -24.898678756947056 ] 0.153
+door clearance Porta · CrewQuarters start [ -0.6900000095367431, 2.17, -9.000000476837158 ] result [ -1.790000009536743, 2.17, -9.000000476837158 ] 0.000
+door clearance Porta · Engineering start [ 0, 2.17, 8.650000381469727 ] result [ 0, 2.17, 7.550000381469727 ] 0.000
+door clearance Porta · Hygiene start [ 1.7900000095367432, 2.17, -9.000000476837158 ] result [ 0.6900000095367433, 2.17, -9.000000476837158 ] 0.000
+door clearance Porta · MedBay start [ 1.7900000095367432, 2.17, -19.5 ] result [ 0.6900000095367433, 2.17, -19.5 ] 0.000
+door clearance Porta · OpsRoom start [ -0.6900000095367431, 2.17, -19.5 ] result [ -1.790000009536743, 2.17, -19.5 ] 0.000
+PASS Player can approach and cross each opened doorway
+cockpit access [ 0, 2.997669186592102, -26.60000000000006 ]
+PASS Both cockpit risers are walkable without jumping
+PASS Pistons never intersect hull or ramp throughout animation
+12 Atlas integration checks passed.

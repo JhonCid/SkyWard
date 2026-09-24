@@ -1,0 +1,12 @@
+# HTMLs são gerados a partir de src/ por build.js.
+/SkyWard.html
+/SkyWard-v*.html
+/Personagens-v*.html
+
+# Saídas de testes e ferramentas locais.
+/docs/character-poses/*.json
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+

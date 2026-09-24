@@ -1,0 +1,296 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover"><meta name="theme-color" content="#08151d"><title>SkyWard</title><style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#07131b;color:#e1ebe5;font-family:Arial,sans-serif;touch-action:none}canvas{display:block}button,select{font:inherit;color:inherit;border:1px solid #bed9cc35;background:#19313d;border-radius:7px;cursor:pointer}button{padding:12px 18px;transition:background .15s}button:hover{background:#31504e}button:focus-visible{outline:2px solid #b8e3cf;outline-offset:2px}.hidden{display:none!important}.legacy{display:none!important}#flightFx,#damageOverlay{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}#damageOverlay{background:radial-gradient(ellipse,transparent 35%,#a92b1c 100%);opacity:0}#hud{position:absolute;inset:0;z-index:2;pointer-events:none;padding:max(20px,env(safe-area-inset-top)) max(25px,env(safe-area-inset-right)) 20px max(25px,env(safe-area-inset-left))}.hudTop{display:flex;align-items:flex-start;justify-content:space-between;gap:25px}.brand{font-size:10px;letter-spacing:4px;color:#acc8be;margin-bottom:10px}#place{font-size:14px;letter-spacing:1.5px}#state{font-size:10px;letter-spacing:1px;color:#a0b5ba;margin-top:7px}.rightTop{display:flex;align-items:center;gap:20px;font-size:12px;color:#d4c5a0}#menuButton{pointer-events:auto;font-size:18px;padding:8px 15px;background:rgba(3,9,17,0.88);border:1px solid rgba(126,226,200,0.35);border-radius:6px;color:#7ee2c8;backdrop-filter:blur(10px);transition:all .2s ease}#menuButton:hover{border-color:#7ee2c8;box-shadow:0 0 14px rgba(126,226,200,0.4)}#objective{font-size:11px;color:#d9e3ce;position:absolute;top:105px;left:25px;max-width:350px;line-height:1.6}#threat{position:absolute;top:23%;left:50%;transform:translateX(-50%);background:#15222cd9;border:1px solid #edbc7755;border-radius:20px;padding:10px 17px;font-size:11px;letter-spacing:1px;text-align:center;max-width:90%}.cross{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:8px;height:8px;border:1px solid #e6edeab0;border-radius:50%}.bottomHud{position:absolute;bottom:25px;left:25px;right:25px;display:flex;align-items:end;justify-content:space-between}.vitals{width:180px}#vitalText{font-size:10px;letter-spacing:1px;margin-bottom:8px}.bar{height:4px;background:#b6d4da24;border-radius:3px;overflow:hidden;margin-top:4px}.bar div{height:100%;width:100%;transition:width .15s}#vitalFill{background:#b7d7b3}#shieldFill{background:#81c7e4}#weaponStatus{font-size:11px;letter-spacing:1px;text-align:right}.flightReadout{font-size:11px;color:#9db5bd;margin-top:8px;text-align:right}#waypoint{position:absolute;transform:translate(-50%,-50%);text-align:center;color:#7ee2c8;filter:drop-shadow(0 2px 4px rgba(0,0,0,0.85));pointer-events:none;max-width:140px;line-height:1.2}#wayArrow{font-size:15px;color:#7ee2c8;display:block;line-height:1;margin-bottom:2px}#wayLabel{display:block;font-size:10px;font-weight:bold;letter-spacing:0.8px;text-transform:uppercase;color:#ffffff;line-height:1.1}#wayDistance{display:block;font-size:10px;color:#a4d9cc;font-weight:bold;letter-spacing:0.4px;margin-top:1px}#toast{display:none!important;opacity:0!important;visibility:hidden!important;pointer-events:none!important}
+#intro{position:absolute;inset:0;z-index:20;display:flex;flex-direction:column;justify-content:space-between;padding:clamp(24px,6vw,64px);background:radial-gradient(circle at 25% 50%,rgba(6,16,24,0.88) 0%,rgba(2,6,10,0.96) 100%);pointer-events:auto;user-select:none;transition:opacity .45s ease,visibility .45s}
+.menuContainer{display:flex;flex-direction:column;justify-content:center;max-width:440px;margin:auto 0}
+.gameLogo{margin-bottom:36px}
+.logoGlyph{font-size:22px;color:#7ee2c8;margin-bottom:8px;letter-spacing:4px}
+.logoTitle{font-size:clamp(46px,7.5vw,84px);font-weight:200;letter-spacing:16px;color:#edf7fa;margin:0 0 6px 0;line-height:1;text-transform:uppercase}
+.logoSub{font-size:11px;letter-spacing:6px;color:#7094a4;text-transform:uppercase}
+.menuActions{display:flex;flex-direction:column;gap:12px;width:fit-content}
+.menuBtn{display:flex;align-items:center;gap:14px;background:transparent;border:1px solid rgba(130,195,215,0.18);border-left:3px solid rgba(130,195,215,0.35);border-radius:4px;color:#cde2eb;font-size:13px;font-weight:500;letter-spacing:4px;padding:14px 28px;cursor:pointer;text-transform:uppercase;transition:all .2s ease;backdrop-filter:blur(8px)}
+.menuBtn:hover{background:rgba(126,226,200,0.12);border-color:#7ee2c8;border-left-width:6px;color:#ffffff;transform:translateX(4px)}
+.menuBtn.primary{background:rgba(126,226,200,0.15);border-color:rgba(126,226,200,0.5);border-left-color:#7ee2c8;color:#f0faf7;font-weight:600}
+.menuBtn.primary:hover{background:#7ee2c8;color:#061c16}
+.btnArrow{font-size:11px;color:#7ee2c8;transition:transform .2s}
+.menuBtn:hover .btnArrow{transform:translateX(3px)}
+.menuBtn.primary:hover .btnArrow{color:#061c16}
+.menuFooter{font-size:10px;letter-spacing:3px;color:#557280;text-transform:uppercase}
+#panel{position:absolute;inset:0;z-index:10;background:radial-gradient(circle at 50% 30%,rgba(6,18,26,0.95) 0%,rgba(2,7,12,0.98) 100%);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);padding:max(22px,env(safe-area-inset-top)) 6vw;overflow:auto;touch-action:pan-y;border:1px solid rgba(126,226,200,0.18)}.panelTop{display:flex;justify-content:space-between;align-items:center;gap:15px;border-bottom:1px solid rgba(126,226,200,0.22);padding-bottom:18px;margin-bottom:28px}#panelTabs{display:flex;gap:8px;flex-wrap:wrap}#panelTabs button{font-family:inherit;font-size:11px;font-weight:600;letter-spacing:2.5px;padding:10px 18px;border-radius:6px;border:1px solid rgba(126,226,200,0.25);background:rgba(12,32,42,0.65);color:#85b5c5;transition:all .2s ease;cursor:pointer;text-transform:uppercase}#panelTabs button:hover{color:#f0f9fb;border-color:#7ee2c8;background:rgba(126,226,200,0.15);box-shadow:0 0 14px rgba(126,226,200,0.25)}#panelTabs button.active{color:#041411;background:#7ee2c8;border-color:#a8f5e2;box-shadow:0 0 20px rgba(126,226,200,0.45);font-weight:700}h2{font-size:30px;font-weight:300;letter-spacing:1px;color:#f0f9fb;margin:12px 0}h3{font-size:15px;font-weight:400;color:#7ee2c8;letter-spacing:1px}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:25px 0}.card{min-height:135px;text-align:left;padding:22px;background:rgba(12,32,42,0.80);border:1px solid rgba(126,226,200,0.22);border-radius:8px;backdrop-filter:blur(8px);transition:all .2s ease;box-shadow:0 4px 18px rgba(0,0,0,0.3)}.card:hover{border-color:rgba(126,226,200,0.6);box-shadow:0 0 20px rgba(126,226,200,0.25)}.card small{font-size:10px;font-weight:600;letter-spacing:1.5px;color:#7ee2c8;display:block;text-transform:uppercase}.card strong{font-size:17px;font-weight:400;display:block;margin:14px 0 8px;color:#f0f9fb}.card span{font-size:12px;line-height:1.7;color:#8faec0;display:block}.selected{border-color:#7ee2c8;background:rgba(20,54,68,0.85);box-shadow:0 0 20px rgba(126,226,200,0.35)}.settingsGrid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:25px 0}.settingsGrid section{padding:22px;background:rgba(12,32,42,0.80);border:1px solid rgba(126,226,200,0.22);border-radius:8px;box-shadow:0 4px 18px rgba(0,0,0,0.3)}.settingsGrid label{display:flex;align-items:center;gap:15px;justify-content:space-between;font-size:13px;margin:18px 0;color:#bfd0d1}.settingsGrid input[type=range]{width:60%;accent-color:#7ee2c8}.settingsGrid input[type=checkbox]{accent-color:#7ee2c8}.settingsGrid select{padding:9px 16px;background:rgba(12,32,42,0.9);border:1px solid rgba(126,226,200,0.35);color:#dcf3f0;border-radius:6px}details{border:1px solid rgba(126,226,200,0.22);border-radius:8px;padding:16px;margin-bottom:20px;background:rgba(12,32,42,0.5);touch-action:pan-y}summary{cursor:pointer;font-size:13px;color:#7ee2c8;letter-spacing:1px}.in-menu #hud{opacity:.12}
+#mobileControls{display:none;position:absolute;inset:0;pointer-events:none;z-index:4;touch-action:none}body.touch:not(.welcome):not(.in-menu) #mobileControls{display:block}#joystick{position:absolute;left:max(25px,env(safe-area-inset-left));bottom:max(35px,env(safe-area-inset-bottom));width:125px;height:125px;border-radius:50%;border:1px solid #cee7e04f;background:#10263370;pointer-events:auto;touch-action:none;display:flex;align-items:center;justify-content:center}#stickThumb{width:49px;height:49px;border-radius:50%;background:#b4d3c665;border:1px solid #d4ebda66;pointer-events:none}.touchButtons{position:absolute;right:max(24px,env(safe-area-inset-right));bottom:max(26px,env(safe-area-inset-bottom));display:grid;grid-template-columns:65px 76px;gap:10px;align-items:center;pointer-events:auto}.touchButtons button{padding:0;width:65px;height:52px;font-size:11px;background:#142e3ad9;touch-action:none}.touchButtons #fireTouch{width:76px;height:76px;border-radius:50%;border-color:#dfb49885;background:#744332b5;grid-row:span 2}#touchActions{position:absolute;right:25px;bottom:175px;padding:12px;background:#0d232ef2;border:1px solid #a7c4bb55;border-radius:10px;pointer-events:auto;display:grid;grid-template-columns:repeat(3,75px);gap:7px;max-height:55vh;overflow:auto;touch-action:pan-y}#touchActions button{padding:12px 4px;font-size:10px;min-height:42px;touch-action:none}.touch .bottomHud{bottom:auto;top:132px;left:25px;right:25px}.touch .vitals{width:125px}.touch #weaponStatus{font-size:9px}.touch .flightReadout{font-size:10px}.touch #objective{top:92px;max-width:75%;font-size:10px}.touch #threat{top:28%;font-size:10px}.touch #toast{display:none!important}.touch #place{font-size:12px}.touch .brand{margin-bottom:7px}.touch .hudTop{gap:10px}.touch .rightTop{gap:10px}.touch #menuButton{padding:9px 13px}
+@media(max-width:760px){#panel{padding:18px 5vw}.panelTop{align-items:start}#panelTabs{gap:4px}#panelTabs button{font-size:10px;padding:9px 8px}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.card{padding:15px;min-height:130px}.card strong{font-size:14px}.settingsGrid{grid-template-columns:1fr}h2{font-size:25px}h1{letter-spacing:5px}p{font-size:12px}.introContent{max-width:100%}.facts{gap:20px}.introContent .note{line-height:1.6}}@media(max-height:500px){.touch .bottomHud{top:100px}.touch #objective{top:76px}.touch .brand{display:none}.touch #threat{top:38%}#joystick{width:108px;height:108px;bottom:15px}.touchButtons{bottom:12px}.touch #toast{display:none!important}.introContent p{margin:10px 0}.facts{margin:14px 0}.facts b{font-size:18px}h1{font-size:43px;margin-top:10px}.note{display:none}}
+#jetHud{margin-bottom:10px;font-size:9px;letter-spacing:1px}#jetFill{background:#e5c582}#interiorPrompt{font-size:11px;color:#d7dda9;margin-bottom:10px}.touchButtons #jumpTouch{grid-column:2;grid-row:3}.touchButtons{grid-template-columns:65px 76px}.touch #jetHud{margin-bottom:5px}.touch #jetText{font-size:8px}.touch #touchActions{bottom:235px}.touch .bottomHud{top:140px}@media(max-height:500px){.touch .bottomHud{top:100px}.touch #touchActions{bottom:190px;max-height:45vh}.touch #threat{top:47%}}
+
+#actionsToggle{position:absolute;left:max(18px,env(safe-area-inset-left));top:max(18px,env(safe-area-inset-top));width:48px;height:44px;pointer-events:auto;padding:0;font-size:28px;background:#102937cf}#quickWeapon{position:absolute;right:max(22px,env(safe-area-inset-right));bottom:max(24px,env(safe-area-inset-bottom));width:96px;min-height:58px;padding:12px 8px;pointer-events:auto;touch-action:none;font-size:11px;background:#183847dd;border-color:#aacabb66}#quickWeapon.aiming{border-color:#e0e9bc}#actionStrip{position:absolute;left:18px;right:18px;top:max(74px,calc(env(safe-area-inset-top) + 60px));display:flex;gap:8px;overflow-x:auto;pointer-events:auto;padding:10px;background:#0d202bf0;border:1px solid #b0ccbf44;border-radius:10px;touch-action:pan-x}#actionStrip button{white-space:nowrap;padding:13px;font-size:11px;flex-shrink:0}#weaponPicker{position:absolute;right:20px;bottom:95px;width:min(410px,90vw);max-height:68vh;overflow-y:auto;pointer-events:auto;background:#102733f5;padding:15px;border:1px solid #bbd7c855;border-radius:10px;touch-action:pan-y}.pickerTitle{font-size:11px;letter-spacing:1px}.pickerTitle span{display:block;font-size:10px;color:#aec4c9;margin:7px 0 12px}.equipmentGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.equipmentItem{padding:14px 10px;background:#25404c;border:1px solid #a8cab544;border-radius:6px;touch-action:none;user-select:none}.equipmentItem strong{font-size:12px;font-weight:normal;display:block}.equipmentItem small{font-size:8px;display:block;margin-top:7px;color:#bfcbaa}.equipmentItem.selected{border-color:#d3e5b9}#equipmentInfo{position:absolute;right:20px;bottom:100px;width:min(340px,88vw);z-index:3;pointer-events:none;padding:20px;background:#071822fa;border:1px solid #d4deb080;border-radius:9px}#equipmentInfo p{font-size:12px}#gestureState{font-size:9px;color:#d7dda9;margin-bottom:6px}.touch .bottomHud{top:auto;bottom:max(22px,env(safe-area-inset-bottom));left:22px;right:135px;align-items:flex-end;gap:12px}.touch .vitals{width:112px;flex-shrink:0}.touch .flightReadout{font-size:9px}.touch #weaponStatus{display:none}.touch .hudTop>div:first-child{margin-left:57px;max-width:55%}.touch #objective{left:77px;top:94px;max-width:65%}.touch #toast{display:none!important}.touch #interiorPrompt{font-size:9px}.touch #jetHud{margin-bottom:7px}.touch #threat{top:28%}
+@media(max-height:500px){.touch #objective{top:78px}.touch .bottomHud{top:auto;bottom:18px}.touch #place{font-size:10px}.touch #state{font-size:9px}#weaponPicker{max-height:63vh;bottom:84px}.equipmentItem{padding:10px}.pickerTitle span{display:none}#equipmentInfo{bottom:90px}.touch #threat{top:30%}}
+
+/* Subtle, clean corner readout when looking at 3D cockpit controls */
+#cockpitTargetInfo{position:absolute;bottom:26px;right:28px;z-index:4;font-size:11px;letter-spacing:2px;color:#8be3d2;background:rgba(6,16,24,0.85);border:1px solid rgba(126,226,200,0.35);padding:8px 16px;border-radius:4px;text-transform:uppercase;pointer-events:none;box-shadow:0 4px 16px rgba(0,0,0,0.5);transition:opacity .15s}
+
+/* Fullscreen Vector Art Start Menu */
+#startMenu{position:absolute;inset:0;z-index:25;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#030911;overflow:hidden;user-select:none;transition:opacity .5s ease,visibility .5s}
+.spaceVectorBg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.startMenuContent{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;text-align:center}
+.menuGlyph{font-size:28px;color:#7ee2c8;margin-bottom:12px;filter:drop-shadow(0 0 10px rgba(126,226,200,0.5))}
+.menuTitle{font-size:clamp(52px,9vw,96px);font-weight:200;letter-spacing:22px;margin:0 0 8px 18px;color:#f0f9fb;text-transform:uppercase;line-height:1;text-shadow:0 0 35px rgba(175,225,240,0.3)}
+.menuSubtitle{font-size:12px;letter-spacing:8px;color:#7aa2b2;text-transform:uppercase;margin-bottom:48px}
+.btnStartExpedition{background:rgba(12,32,42,0.92);color:#dcf3f0;border:1px solid #7ee2c8;border-radius:6px;font-size:14px;font-weight:600;letter-spacing:6px;padding:18px 48px;cursor:pointer;text-transform:uppercase;transition:background 0.2s ease,color 0.2s ease,border-color 0.2s ease,box-shadow 0.2s ease;box-shadow:0 0 20px rgba(126,226,200,0.25);pointer-events:auto;user-select:none}
+.btnStartExpedition:hover{background:#7ee2c8;color:#041411;border-color:#a8f5e2;box-shadow:0 0 32px rgba(126,226,200,0.7),inset 0 0 10px rgba(255,255,255,0.4)}
+.btnStartExpedition:active{background:#5dc9af;box-shadow:0 0 18px rgba(126,226,200,0.5)}
+
+/* Fullscreen Vector Art Loading Screen with Planet & Progress Ring */
+#loadingScreen{position:absolute;inset:0;z-index:30;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#02060c;overflow:hidden;user-select:none;transition:opacity .6s ease,visibility .6s}
+.planetLoadContainer{position:relative;width:340px;height:340px;display:flex;align-items:center;justify-content:center}
+.planetSvg{width:100%;height:100%}
+.loadStatusText{margin-top:24px;text-align:center;font-size:11px;letter-spacing:4px;color:#85b5c5;text-transform:uppercase}
+.loadPercentText{font-size:24px;font-weight:300;letter-spacing:4px;color:#d8f4ee;margin-bottom:6px}
+
+
+/* Discrete Sandbox Mode - Pure typography with elegant hover glow, no button box */
+.btnSandboxOption {
+  margin-top: 10px;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #7ee2c8;
+  cursor: pointer;
+  background: rgba(12, 32, 42, 0.75);
+  border: 1px solid rgba(126, 226, 200, 0.45);
+  border-radius: 4px;
+  padding: 10px 24px;
+  transition: all 0.25s ease;
+  user-select: none;
+  pointer-events: auto;
+}
+.btnSandboxOption:hover {
+  background: rgba(126, 226, 200, 0.2);
+  color: #ffffff;
+  border-color: #7ee2c8;
+  box-shadow: 0 0 16px rgba(126, 226, 200, 0.6);
+  transform: translateY(-1px);
+}
+.btnSandboxOption:active {
+  background: #5dc9af;
+  color: #041411;
+}
+
+/* Interactive 2D System Map */
+#systemMapContainer {
+  position: relative;
+  width: 100%;
+  height: calc(84vh - 130px);
+  min-height: 460px;
+  max-height: 780px;
+  margin: 10px auto 0 auto;
+  touch-action: none;
+  cursor: default;
+  background: radial-gradient(circle at center, #061522 0%, #030a11 65%, #010408 100%);
+  border: 1px solid rgba(126, 226, 200, 0.35);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7), inset 0 0 60px rgba(7, 24, 38, 0.6);
+}
+.systemMapSvg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.mapNode {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.mapNode:hover circle.bodyDisc {
+  stroke: #7ee2c8;
+  stroke-width: 2.5px;
+  filter: drop-shadow(0 0 8px #7ee2c8);
+}
+#mapTooltip {
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
+  right: 18px;
+  background: rgba(4, 14, 22, 0.92);
+  border: 1px solid rgba(126, 226, 200, 0.45);
+  border-radius: 8px;
+  padding: 12px 18px;
+  pointer-events: none;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: opacity 0.2s ease;
+}
+#mapTooltip h4 {
+  margin: 0 0 4px 0;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #e2f7f3;
+  text-transform: uppercase;
+}
+#mapTooltip p {
+  margin: 0;
+  font-size: 10px;
+  color: #92b8c5;
+}
+#mapTooltip .tipAction {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: #7ee2c8;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+
+*, *::before, *::after {
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+}
+
+
+.itemLoreCard {
+  margin-top: 14px;
+  background: rgba(8, 18, 26, 0.96);
+  border: 1px solid #38efba;
+  border-radius: 8px;
+  padding: 14px 18px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6), inset 0 0 12px rgba(56, 239, 186, 0.12);
+  text-align: left;
+}
+.loreHeader { border-bottom: 1px solid rgba(56, 239, 186, 0.25); padding-bottom: 6px; margin-bottom: 10px; }
+.loreType { font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; color: #7ee2c8; }
+.loreTitle { font-size: 17px; font-weight: bold; color: #f0f8ff; margin: 2px 0; }
+.loreMfg { font-size: 12px; color: #9bbcc7; font-style: italic; }
+.loreUsage { font-size: 13px; color: #e2f4f7; line-height: 1.45; margin-bottom: 8px; }
+.loreStory { font-size: 12px; color: #8faab5; line-height: 1.4; border-left: 2px solid #ca8c3e; padding-left: 8px; }
+
+</style></head><body class="welcome"><canvas id="flightFx"></canvas><div id="damageOverlay"></div><!-- Menu Inicial com Linda Arte Vetorial do Espaço e APENAS a opção Iniciar -->
+<div id="startMenu">
+  <svg class="spaceVectorBg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="nebulaA" cx="70%" cy="30%" r="60%">
+        <stop offset="0%" stop-color="#143c4a" stop-opacity="0.45"/>
+        <stop offset="45%" stop-color="#0a2030" stop-opacity="0.25"/>
+        <stop offset="100%" stop-color="#030911" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="nebulaB" cx="20%" cy="75%" r="55%">
+        <stop offset="0%" stop-color="#2a1b42" stop-opacity="0.38"/>
+        <stop offset="50%" stop-color="#0d1428" stop-opacity="0.2"/>
+        <stop offset="100%" stop-color="#030911" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="pulsarGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#7ee2c8" stop-opacity="0.8"/>
+        <stop offset="25%" stop-color="#56b4d3" stop-opacity="0.35"/>
+        <stop offset="100%" stop-color="#030911" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <!-- Background nebulae -->
+    <rect width="1920" height="1080" fill="#030911"/>
+    <rect width="1920" height="1080" fill="url(#nebulaA)"/>
+    <rect width="1920" height="1080" fill="url(#nebulaB)"/>
+    
+    <!-- Vector constellation lines and orbital coordinate curves -->
+    <circle cx="960" cy="540" r="420" fill="none" stroke="rgba(130,205,225,0.06)" stroke-width="1" stroke-dasharray="4,8"/>
+    <circle cx="960" cy="540" r="620" fill="none" stroke="rgba(130,205,225,0.04)" stroke-width="1"/>
+    <circle cx="960" cy="540" r="820" fill="none" stroke="rgba(130,205,225,0.03)" stroke-width="1" stroke-dasharray="8,12"/>
+    <ellipse cx="1350" cy="320" rx="350" ry="120" transform="rotate(-28 1350 320)" fill="none" stroke="rgba(126,226,200,0.12)" stroke-width="1.2"/>
+    
+    <!-- Geometric Star Chart & Constellations -->
+    <path d="M 280 180 L 420 290 L 610 240 L 780 340" fill="none" stroke="rgba(126,226,200,0.18)" stroke-width="1"/>
+    <path d="M 1320 720 L 1480 810 L 1650 750 L 1740 880" fill="none" stroke="rgba(130,205,225,0.16)" stroke-width="1"/>
+    
+    <!-- Vector stars -->
+    <circle cx="280" cy="180" r="2.5" fill="#a4f2de"/>
+    <circle cx="420" cy="290" r="3.2" fill="#fff"/>
+    <circle cx="610" cy="240" r="2" fill="#7ee2c8"/>
+    <circle cx="780" cy="340" r="3.5" fill="#fff"/>
+    <circle cx="1320" cy="720" r="2.5" fill="#a4f2de"/>
+    <circle cx="1480" cy="810" r="3.5" fill="#fff"/>
+    <circle cx="1650" cy="750" r="2" fill="#7ee2c8"/>
+    <circle cx="1740" cy="880" r="3" fill="#fff"/>
+    
+    <circle cx="1350" cy="320" r="50" fill="url(#pulsarGlow)"/>
+    <circle cx="1350" cy="320" r="4" fill="#ffffff"/>
+    
+    <!-- Ambient micro-stars -->
+    <circle cx="150" cy="420" r="1.5" fill="#fff" opacity="0.6"/>
+    <circle cx="210" cy="820" r="1.2" fill="#7ee2c8" opacity="0.5"/>
+    <circle cx="520" cy="680" r="1" fill="#fff" opacity="0.4"/>
+    <circle cx="840" cy="190" r="1.8" fill="#fff" opacity="0.7"/>
+    <circle cx="1120" cy="210" r="1.2" fill="#7ee2c8" opacity="0.5"/>
+    <circle cx="1240" cy="490" r="1.5" fill="#fff" opacity="0.6"/>
+    <circle cx="1550" cy="220" r="1.4" fill="#fff" opacity="0.7"/>
+    <circle cx="1680" cy="420" r="1.8" fill="#a4f2de" opacity="0.6"/>
+    <circle cx="1820" cy="610" r="1.2" fill="#fff" opacity="0.5"/>
+    <circle cx="920" cy="880" r="1.5" fill="#fff" opacity="0.6"/>
+  </svg>
+  
+  <div class="startMenuContent">
+    <h1 class="menuTitle">SKYWARD</h1>
+    <div class="menuSubtitle">DEEP SPACE EXPEDITION</div>
+    <div style="display:flex;flex-direction:column;align-items:center;gap:10px;">
+      <button class="btnStartExpedition" onclick="startLoadingGame(false)">Iniciar</button>
+      <button class="btnSandboxOption" onclick="startLoadingGame(true)">Modo Sandbox</button>
+    </div>
+  </div>
+</div>
+
+<!-- Tela de Carregamento com Arte Vetorial do Planeta e Anel de Progresso -->
+<div id="loadingScreen" class="hidden">
+  <div class="planetLoadContainer">
+    <svg class="planetSvg" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <!-- Atmospheric halo -->
+        <radialGradient id="atmoGlow" cx="50%" cy="50%" r="50%">
+          <stop offset="65%" stop-color="#4abfa5" stop-opacity="0"/>
+          <stop offset="90%" stop-color="#7ee2c8" stop-opacity="0.35"/>
+          <stop offset="100%" stop-color="#7ee2c8" stop-opacity="0"/>
+        </radialGradient>
+        <!-- Planet globe with spherical day/night lighting -->
+        <radialGradient id="planetSphere" cx="35%" cy="32%" r="65%">
+          <stop offset="0%" stop-color="#5cc5ae"/>
+          <stop offset="45%" stop-color="#276d65"/>
+          <stop offset="78%" stop-color="#123a39"/>
+          <stop offset="100%" stop-color="#051214"/>
+        </radialGradient>
+        <clipPath id="globeClip">
+          <circle cx="160" cy="160" r="70"/>
+        </clipPath>
+      </defs>
+
+      <!-- Atmosphere outer glow -->
+      <circle cx="160" cy="160" r="86" fill="url(#atmoGlow)"/>
+
+      <!-- Base Planet Globe -->
+      <circle cx="160" cy="160" r="70" fill="url(#planetSphere)"/>
+
+      <!-- Vector Continents inside globe -->
+      <g clip-path="url(#globeClip)">
+        <path d="M 120 130 Q 140 110 165 125 Q 185 140 175 165 Q 155 185 130 170 Q 110 155 120 130 Z" fill="#75d8be" opacity="0.6"/>
+        <path d="M 160 170 Q 185 160 200 180 Q 210 205 190 215 Q 170 220 155 200 Z" fill="#52b89d" opacity="0.55"/>
+        <path d="M 105 175 Q 120 165 135 185 Q 125 205 110 195 Z" fill="#64c9ae" opacity="0.5"/>
+        <!-- Soft cloud swirling bands -->
+        <path d="M 80 145 Q 130 135 180 150 Q 220 160 240 145" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="6" stroke-linecap="round"/>
+        <path d="M 90 180 Q 140 170 190 185 Q 230 195 240 180" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="4" stroke-linecap="round"/>
+      </g>
+
+      <!-- Atmospheric rim crescent -->
+      <circle cx="160" cy="160" r="69.5" fill="none" stroke="#a2f5e0" stroke-width="1.5" opacity="0.65"/>
+
+      <!-- Background guide ring (subtle faint orbital path) -->
+      <ellipse cx="160" cy="160" rx="122" ry="46" transform="rotate(-26 160 160)" fill="none" stroke="rgba(126,226,200,0.12)" stroke-width="2.5"/>
+
+      <!-- Dynamic Loading Progress Ring (forms around the planet!) -->
+      <!-- Circumference of ellipse ~ 2 * pi * sqrt((122^2 + 46^2)/2) ~ 590 -->
+      <ellipse id="loadingOrbitRing" cx="160" cy="160" rx="122" ry="46" transform="rotate(-26 160 160)"
+               fill="none" stroke="#7ee2c8" stroke-width="4.5" stroke-linecap="round"
+               stroke-dasharray="590" stroke-dashoffset="590"
+               style="filter: drop-shadow(0 0 8px rgba(126,226,200,0.8));"/>
+    </svg>
+  </div>
+  <div class="loadStatusText">
+    <div class="loadPercentText" id="loadPercent">0%</div>
+    <div id="loadStep">INICIALIZANDO SISTEMA ESTELAR...</div>
+  </div>
+</div>
+<div id="hud" class="hidden"><div class="hudTop"><div><div class="brand" id="versionLabel">SKYWARD · 0.1.34</div><div id="place"></div><div id="state"></div></div><div class="rightTop"><span><span id="credits">1.200</span> CR</span><button id="menuButton" aria-label="Abrir menu" onclick="menu('settings')">☰</button></div></div><div id="objective"></div><div id="threat" class="hidden"></div><div class="cross"></div><div id="waypoint"><div id="wayArrow">◇</div><strong id="wayLabel"></strong><span id="wayDistance"></span></div><div class="bottomHud"><div class="vitals"><div id="jetHud"><span id="jetText"></span><div class="bar"><div id="jetFill"></div></div></div><div id="vitalText"></div><div class="bar"><div id="vitalFill"></div></div><div class="bar"><div id="shieldFill"></div></div></div><div><div id="gestureState"></div><div id="interiorPrompt"></div><div id="weaponStatus"></div><div class="flightReadout"><span id="speed">0</span> m/s · <span id="alt">0</span> m</div></div></div><div id="cockpitTargetInfo" class="hidden"></div></div><div id="toast"></div><div id="mobileControls"><button id="actionsToggle" aria-label="Ações contextuais" onclick="toggleActionStrip()">⋯</button><button id="quickWeapon" aria-label="Equipamento: tocar alterna, segurar escolhe, deslizar recarrega">Equipamento</button><div id="actionStrip" class="hidden"></div><div id="weaponPicker" class="hidden"></div><div id="equipmentInfo" class="hidden"></div></div><div id="panel" class="hidden"><div class="panelTop"><div id="panelTabs"><button data-tab="settings" onclick="menu('settings')">CONFIGURAÇÕES</button><button data-tab="map" onclick="menu('map')">MAPA</button><button data-tab="inventory" onclick="menu('inventory')">INVENTÁRIO</button><button data-tab="jobs" onclick="menu('jobs')">CONTRATOS</button><button data-tab="fleet" onclick="menu('fleet')">FROTA</button></div><button onclick="closeMenu()" aria-label="Fechar menu">×</button></div><div id="content"></div></div><div class="legacy"><span id="weaponTouch"></span><span id="contextAction"></span><span id="shipname"></span><span id="cargo"></span><span id="airState"></span><span id="boardHint"></span><span id="guideToggle"></span><span id="audioToggle"></span><span id="audioStatus"></span><span id="qualityLabel"></span></div>

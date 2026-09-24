@@ -1,0 +1,13 @@
+const weaponDefs={
+  pistol:{name:'Pistola Apex-9',damage:28,rate:.26,range:180,mag:15,recoil:.85,color:0x42f5d7,soundPitch:135},
+  rifle:{name:'Fuzil Tempest-X',damage:22,rate:.10,range:280,mag:30,recoil:.65,color:0x38efba,soundPitch:165},
+  shotgun:{name:'Escopeta Havoc-12',damage:96,rate:.72,range:55,mag:8,recoil:1.6,color:0xff6b38,soundPitch:75,pellets:6},
+  blade:{name:'Lâmina Vibro-Edge',damage:54,rate:.42,range:3.5,color:0x64e8ff,soundPitch:220},
+  sabre:{name:'Sabre de Plasma Nyx',damage:88,rate:.38,range:4.2,color:0x22f5d2,soundPitch:280},
+  grenade:{name:'Granada de Plasma Mk-IV',damage:140,rate:1.0,range:20,color:0xffa338},
+  tool:{name:'Ruptor Multi-Tool',damage:15,rate:.5,range:18,color:0x5df5b8},
+  unarmed:{name:'Desarmado',damage:24,rate:.28,range:2.3,color:0xd8d8d8,soundPitch:95}
+};
+const storeDefs={ranged:{name:'ARMAS DE LONGO ALCANCE',short:'Arsenal',color:0x71a9c0,items:['rifle','shotgun','ammo']},melee:{name:'ARMAS CORPO A CORPO',short:'Lâminas',color:0xbaa0c4,items:['sabre']},explosives:{name:'EXPLOSIVOS',short:'Demolição',color:0xd5aa6a,items:['grenades']},ships:{name:'NAVES',short:'Estaleiro',color:0x87b5bd,items:[]},vehicles:{name:'VEÍCULOS',short:'Garagem',color:0x9eb77e,items:[]},jobs:{name:'CENTRAL DE MISSÕES',short:'Contratos',color:0x94c9ba,items:[]},medical:{name:'CLÍNICA',short:'Clínica',color:0xc2a395,items:['medkits','heal']},supplies:{name:'SUPRIMENTOS E REPAROS',short:'Suprimentos',color:0xaab39b,items:['ammo','medkits','repair']}};
+const products={rifle:['Fuzil Tempest-X',650,'Fuzil bullpup automático militar; carregador de 30 tiros.'],shotgun:['Escopeta Havoc-12',780,'Disparo em leque de 6 projéteis de plasma; carregador de 8 tiros.'],ammo:['72 cargas de munição',110,'Reserva compartilhada entre pistola e carabina.'],sabre:['Sabre de energia',450,'Mais alcance e dano em combate próximo.'],grenades:['3 granadas de pulso',180,'Explosão em área; mantenha distância.'],medkits:['2 kits médicos',120,'Cada kit recupera 55 pontos de vida.'],heal:['Tratamento completo',80,'Restaura sua vida e o escudo do traje.'],repair:['Reparar nave e veículo',170,'Recupera a integridade e os escudos.']};
+const storeSets=[['ranged','melee','jobs','vehicles','medical','supplies'],['explosives','ships','jobs','melee','supplies','vehicles'],['ranged','vehicles','jobs','medical','supplies','melee'],['melee','explosives','jobs','medical','supplies','ranged'],['ships','ranged','jobs','vehicles','supplies','medical'],['ships','explosives','jobs','melee','medical','supplies'],['ships','ranged','jobs','vehicles','medical','supplies'],['ships','explosives','jobs','melee','medical','supplies']];

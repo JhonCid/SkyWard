@@ -1,0 +1,12 @@
+window.buildShip = buildShip;
+function buildShip(){landingGears.length=0;landingSequence=null;shipGearProgress=1.0;shipGearSuspension=0;shipTiltPitch=shipTiltRoll=shipTiltYaw=0;while(ship.children.length){const old=ship.children[0];ship.remove(old);if(old!==rover)old.traverse(o=>{if(o.isMesh){o.geometry.dispose();o.material.map?.dispose();o.material.dispose();}});}shipInteractables.length=0;resting=null;const l=layout(),t=shipTypes[shipType],h=l.halfX,z=l.halfZ,metal=0x637c8b,glass=new THREE.MeshStandardMaterial({color:0x99d2de,transparent:true,opacity:.15,metalness:.1,roughness:.12,side:THREE.DoubleSide});rampOpen=true;
+buildAtlas();}
+
+function makeSeat(root,x,y,z,c){box(root,x,y+.55,z,1.2,.5,1.3,c);const back=box(root,x,y+1.15,z+.55,1.2,1.3,.23,c);back.rotation.x=.1;for(const side of [-1,1])box(root,x+side*.7,y+.9,z,.15,.15,.9,0x657c89);}
+function bulkhead(z,x,w,doorX,label){const gap=2.8,min=x-w/2,max=x+w/2,left=doorX-gap/2,right=doorX+gap/2;if(left>min)box(ship,(min+left)/2,2.5,z,left-min,4.8,.25,0x5b747f);if(max>right)box(ship,(max+right)/2,2.5,z,max-right,4.8,.25,0x5b747f);box(ship,doorX,4.4,z,gap,1,.28,0x637e88);const o=box(ship,doorX,2,z,gap,3.8,.18,0x809798);o.visible=false;o.userData.removed=true;shipInteractables.push({kind:'door',o,point:V(doorX,1.8,z),open:true,label});label3D(ship,label,doorX,4.3,z+.2,4);}
+
+function addFurniture(kind,pos){const g=new THREE.Group();g.position.copy(pos);ship.add(g);if(kind==='bed'){box(g,0,.4,0,1.8,.6,3.3,0x536b79);box(g,0,.78,0,1.7,.18,3.1,0xaabcb9);box(g,0,.97,-1,1.2,.18,.65,0xd1d9ce);box(g,0,.92,.5,1.72,.10,1.9,0x729999);}else if(kind==='bench'){makeSeat(g,0,0,0,0x78999f);}else{box(g,0,1.4,0,1.2,2.8,2,0x7a909b);box(g,.65,1.5,0,.12,2.4,1.8,0x9daeb0);}shipInteractables.push({kind,o:g,point:pos.clone().add(V(0,1.4,0)),label:kind==='bed'?'Deitar':kind==='bench'?'Sentar':'Abrir compartimento'});}
+
+function standUp(){if(!resting)return;foot.copy(resting.returnPoint);resting=null;jumpVelocity=0;onFootGround=true;yaw=0;pitch=0;}
+function transferItem(key,direction){if(!activeLocker||!inside||mode!=='foot'||foot.distanceTo(activeLocker.point)>3||!Object.hasOwn(locker,key))return;const amount=key==='ammo'?12:1,from=direction==='store'?equipment:locker,to=direction==='store'?locker:equipment,n=Math.min(amount,from[key]);if(!n){toast('Não há itens para transferir.');return;}from[key]-=n;to[key]+=n;save();renderPanel('locker');}
+function enhanceShip(){}
